@@ -1,428 +1,469 @@
-<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
-<!--  adcolony -->
-<prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any" />
-<prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any" />
-<prescription type="activity" class="com.jirbo.adcolony.AdColonyFullscreen" sender="any" />
-<prescription type="activity" class="com.jirbo.adcolony.AdColonyOverlay" sender="any" />
-<!--  appicplay -->
-<prescription type="service" class="com.appicplay.sdk.ad.service.DownloadService" sender="any" />
-<!--  Bilibili -->
-<prescription type="activity" class="com.bilibili.ad.adview.imax.AdIMaxActivity" sender="any" />
-<prescription type="activity" class="com.bilibili.ad.adview.web.AdMWebActivity" sender="any" />
-<prescription type="activity" class="com.bilibili.ad.adview.web.AdWebActivity" sender="any" />
-<prescription type="activity" class="com.bilibili.ad.adview.web.apkdownload.AdDownloadQusActivity" sender="any" />
-<prescription type="activity" class="com.bilibili.ad.apkdownload.AdNotificationQusActivity" sender="any" />
-<prescription type="activity" class="com.bilibili.ad.utils.permission.PermissionActivity" sender="any" />
-<!--  cainiao -->
-<prescription type="activity" class="com.cainiao.wireless.homepage.view.activity.AdsActivity" sender="any" />
-<prescription type="activity" class="com.cainiao.wireless.homepage.view.activity.AdsWebViewActivity" sender="any" />
-<!--  cootek -->
-<prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.AdsPluginRRReceiver" sender="any"/>
-<prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.summary.SummaryNotificationReceiver" sender="any"/>
-<prescription type="broadcast" class="com.cootek.tark.ads.utility.AppInstallReceiver" sender="any"/>
-<prescription type="broadcast" class="com.cootek.tark.ads.utility.SSPReceiver" sender="any"/>
-<prescription type="service" class="com.cootek.tark.ads.sdk.AutoCacheService" sender="any"/>
-<!--  cbx -->
-<prescription type="acyivity" class="com.cbx.cbxlib.ad.ADActivity" sender="any" />
-<prescription type="broadcast" class="com.cbx.cbxlib.ad.AdReceiver" sender="any" />
-<prescription type="broadcast" class="com.cbx.cbxlib.ad.CBXFileProvider" sender="any" />
-<prescription type="service" class="com.cbx.cbxlib.ad.DownloadService" sender="any" />
-<!--  chartboost -->
-<prescription type="activity" class="com.chartboost.sdk.CBImpressionActivity" sender="any" />
-<!--  com.ss.android -->
-<prescription type="activity" class="com.ss.android.ad.activity.SingleTaskBrowserActivity" sender="any" />
-<prescription type="activity" class="com.ss.android.ad.brandlist.AdBrandDetailActivity" sender="any" />
-<prescription type="activity" class="com.ss.android.ad.landingpage.AdBrowserActivity" sender="any" />
-<prescription type="activity" class="com.ss.android.ad.landingpage.AdLandingPageActivity" sender="any" />
-<prescription type="activity" class="com.ss.android.ad.lp.browser.AdLpBrowserActivity" sender="any" />
-<prescription type="activity" class="com.ss.android.article.base.feature.app.browser.AdBrowserActivity" sender="any" />
-<prescription type="activity" class="com.ss.android.ugc.aweme.app.AdsAppActivity" sender="any" />
-<prescription type="activity" class="com.ss.android.ugc.aweme.feed.ad.BottomFormDialog" sender="any" />
-<prescription type="service" class="com.ss.android.ad.impl.AdService" sender="any" />
-<prescription type="service" class="com.ss.android.ad.impl.AdService" sender="any"/>
-<prescription type="service" class="com.ss.android.download.AdInterceptVpnService" sender="any"/>
-<!--  donews -->
-<prescription type="activity" class="com.donews.ad.sdk.stub.Stub1Activity" sender="any" />
-<prescription type="activity" class="com.donews.ad.sdk.stub.Stub1SIActivity" sender="any" />
-<prescription type="activity" class="com.donews.ad.sdk.stub.Stub1STAActivity" sender="any" />
-<prescription type="activity" class="com.donews.ad.sdk.stub.Stub1STOctivity" sender="any" />
-<prescription type="activity" class="com.donews.ad.sdk.stub.StubActivity" sender="any" />
-<prescription type="activity" class="com.donews.ad.sdk.stub.StubSIActivity" sender="any" />
-<prescription type="activity" class="com.donews.ad.sdk.stub.StubSTAActivity" sender="any" />
-<prescription type="activity" class="com.donews.ad.sdk.stub.StubSTOctivity" sender="any" />
-<prescription type="activity" class="com.donews.ad.sdk.stub.StubService" sender="any" />
-<!--  dianping -->
-<prescription type="service" class="com.dianping.ad.offlinepkg.MidasUpdateService" sender="any"/>
-<prescription type="service" class="com.dianping.advertisement.offlinepkg.MidasUpdateService" sender="any"/>
-<!--  douban -->
-<prescription type="activity" class="com.douban.ad.AdActivity" sender="any" /> <!--  duokan -->
-<prescription type="broadcast" class="com.duokan.reader.domain.ad.AppDownloadReceiver" sender="any" />
-<prescription type="broadcast" class="com.duokan.reader.domain.ad.AppInstallReceiver" sender="any" />
-<!--  Facebook广告 -->
-<prescription type="activity" class="com.facebook.ads.AudienceNetworkActivity" sender="any" />
-<!--  inmobi广告 -->
-<prescription type="activity" class="com.inmobi.androidsdk.IMBrowserActivity" sender="any" />
-<prescription type="activity" class="com.inmobi.rendering.InMobiAdActivity" sender="any" />
-<prescription type="broadcast" class="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" sender="any" />
-<prescription type="service" class="com.inmobi.ads.ApkDownloader$ApkDownloadService" sender="any" />
-<!--  iqiyi -->
-<prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADActivity" sender="any" />
-<prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADIndependentActivity" sender="any" />
-<prescription type="activity" class="org.qiyi.android.card.ad.AdFormActivity" sender="any" />
-<prescription type="activity" class="org.qiyi.android.video.activitys.AdActivity" sender="any" />
-<prescription type="activity" class="org.qiyi.android.video.ad.ArAdActivity" sender="any" />
-<prescription type="activity" class="org.qiyi.android.video.ad.ArAdShareActivity" sender="any" />
-<prescription type="activity" class="org.qiyi.video.playrecord.ad.ADActivity" sender="any" />
-<prescription type="activity" class="org.qiyi.video.playrecord.ad.ADIndependentActivity" sender="any" />
-<!--  Keymob -->
-<prescription type="activity" class="com.keymob.sdk.core.KeymobActivity" sender="any" />
-<!--  kugou -->
-<prescription type="activity" class="com.kugou.android.ads.feev4.activity.FeeV4VideoActivity" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppInterstitialADActivity" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity1" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity2" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity3" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity4" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity5" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity1" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity2" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity3" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity4" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity5" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity1" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity2" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity3" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity4" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity5" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity1" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity2" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity3" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity4" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity5" sender="any" />
-<prescription type="activity" class="com.kugou.android.app.miniapp.ad.PrepareAdActivity" sender="any" />
-<!--  meituan -->
-<prescription type="activity" class="com.meituan.android.pt.group.poi.push.PushAdvertisementActivity" sender="any" />
-<prescription type="activity" class="com.sankuai.meituan.poi.push.PushAdvertisementActivity" sender="any" />
-<prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" sender="any" />
-<prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" sender="any"/>
-<prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.cpc.CpcUploadService" sender="any" />
-<prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.cpc.CpcUploadService" sender="any"/>
-<!--  Millennial Media -->
-<prescription type="activity" class="com.millennialmedia.android.MMActivity" sender="any" />
-<!--  mob -->
-<prescription type="activity" class="com.mob.adsdk.activity.BADActivity" sender="any" />
-<prescription type="activity" class="com.mob.adsdk.activity.LandscapeADActivity" sender="any" />
-<prescription type="activity" class="com.mob.adsdk.activity.PortraitADActivity" sender="any" />
-<prescription type="activity" class="com.mob.adsdk.activity.WebViewActivity" sender="any" />
-<prescription type="broadcast" class="com.mob.adsdk.MobADFileProvider" sender="any" />
-<!--  Mopub -->
-<prescription type="activity" class="com.mopub.mobileads.MoPubActivity" sender="any" />
-<prescription type="activity" class="com.mopub.mobileads.MraidActiviy" sender="any" />
-<prescription type="activity" class="com.mopub.mobileads.MraidVideoPlayerActivity" sender="any" />
-<!--  nativesdk -->
-<prescription type="broadcast" class="nativesdk.ad.common.receiver.NetworkSwitchReceiver" sender="any" />
-<prescription type="broadcast" class="nativesdk.ad.common.receiver.PackageAddedReceiver" sender="any" />
-<prescription type="broadcast" class="nativesdk.ad.common.utils.SdkInternal$AppwallActionReceiver" sender="any" />
-<prescription type="service" class="nativesdk.ad.common.service.AdPreloadService" sender="any" />
-<!--  netease -->
-<prescription type="activity" class="com.netease.moneykeeper.ui.ad.AdDialogActivity" sender="any" />
-<prescription type="activity" class="com.netease.newsreader.common.ad.addownload.AdDownloadManageActivity" sender="any" />
-<prescription type="activity" class="com.netease.nr.biz.ad.ExtraAdActivity" sender="any" />
-<prescription type="activity" class="com.netease.nr.biz.pc.addownload.AdDownloadManageActivity" sender="any" />
-<prescription type="service" class="com.netease.newsreader.common.ad.addownload.AdDownloadService" sender="any" />
-<prescription type="service" class="com.netease.nr.biz.ad.AdPrefetchService" sender="any"/>
-<!--  sohu -->
-<prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuAdActivity" sender="any" />
-<prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuVideoDetailPageActivity" sender="any" />
-<prescription type="activity" class="com.sohu.app.ads.sdk.settings.AdSettingActivity" sender="any" />
-<prescription type="service" class="com.sohu.app.ads.download.DownloadService" sender="any" />
-<prescription type="service" class="com.sohu.app.ads.sdk.arch.ProcessLifecycleOwnerInitializer" sender="any" />
-<prescription type="service" class="com.sohu.app.ads.sdk.download.DownloadService" sender="any" />
-<prescription type="service" class="com.sohu.app.ads.sdk.download.DownloadService" sender="any"/>
-<!--  Talkingdata广告 -->
-<prescription type="service" class="com.talkingdata.sdk.TDAntiCheatingService" sender="any" />
-<!--  tencent -->
-<prescription type="activity" class="com.tencent.ads.canvasad.AdCanvasActivity" sender="any" />
-<prescription type="activity" class="com.tencent.ads.landing.AdLandingPageActivity" sender="any" />
-<prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI" sender="any" />
-<prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI1" sender="any" />
-<prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI2" sender="any" />
-<prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI3" sender="any" />
-<prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI4" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.novel.WebNovelActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.splash.AdCanvasActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdBrandActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdBrandGuestActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdNativeCanvasActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.ui.activity.CustomWebGameForItemActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.ui.activity.VideoAdLandingActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebAdvertActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebVideoAdvertActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.splash.AdCanvasActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.ui.activity.AdNativeCanvasActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.ui.activity.VideoAdLandingActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.ui.activity.WebAdvertActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.ui.activity.WebDialogActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.tad.ui.activity.WebVideoAdvertActivity" sender="any" />
-<prescription type="activity" class="com.tencent.news.ui.ADInnerJumpActivity" sender="any" />
-<prescription type="activity" class="com.tencent.qqlive.ona.ad.AdExternalFormActivity" sender="any" />
-<prescription type="activity" class="com.tencent.qqlive.ona.browser.AdLandPageH5Activity" sender="any" />
-<prescription type="activity" class="com.tencent.qqlive.tad.download.TadCancelActivity" sender="any" />
-<prescription type="activity" class="com.tencent.qqlive.tad.splash.AdCanvasActivity" sender="any" />
-<prescription type="activity" class="com.tencent.qqlive.tad.splash.AdLandingPageActivity" sender="any" />
-<prescription type="activity" class="com.tencent.reading.module.splash.AdActivity" sender="any" />
-<prescription type="activity" class="com.tencent.reading.tad.myad.ui.view.AdActivity" sender="any" />
-<prescription type="activity" class="com.tencent.reading.tad.ui.WebAdvertActivity" sender="any" />
-<prescription type="activity" class="com.tencent.reading.tad.ui.WebDialogActivity" sender="any" />
-<prescription type="activity" class="com.tencent.tads.splash.AdLandingPageActivity" sender="any" />
-<prescription type="activity" class="com.tencent.vas.adsdk.pkadvertisement.PkAdActivity" sender="any" />
-<prescription type="activity" class="com.tencent.vas.adsdk.webview.BrowserActivity" sender="any" />
-<!--  weibo广告 -->
-<prescription type="activity" class="com.sina.weibo.movie.startup.AdActivity" sender="any" />
-<prescription type="activity" class="com.weibo.mobileads.view.AdActivity" sender="any" />
-<prescription type="activity" class="com.weibo.mobileads.view.FlashAdActivity" sender="any" />
-<!--  wps -->
-<prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubInterstitialAdActivity" sender="any" />
-<prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubNativeInterstitialAdsActivity" sender="any" />
-<prescription type="activity" class="cn.wps.moffice.main.push.backkeyad.BackkeyAdActivity" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.MiPushMessageReceiver" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.main.ad.sdkreport.SdkReportProvider" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.main.getui.GetuiPushReceiver" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.main.membershipshell.AppRegister" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.main.push.interstitial.SelfReceiver" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.main.push.util.PushPenetrateMsgReceiver" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.main.shortcut.fastaccess.mute.MuteReceiver" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.main.ttsservice.MediaButtonBroadcastReceiver" sender="any" />
-<prescription type="broadcast" class="cn.wps.moffice.service.receivers.MonitorServiceReceiver" sender="any" />
-<prescription type="service" class="cn.wps.moffice.appupdate.AppUpdateService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.backup.BackupService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.common.download.extlibs.service.DownloadService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.feedback.upload.FeedbackSenderService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.main.HWQuickActionService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.main.cloud.storage.core.service.CSService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.main.getui.GetuiService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.main.push.service.PusherService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.main.scan.util.ModelService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService\$GrayInnerService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.main.ttsservice.TTSNotificationDealService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.service.CrashLogSenderService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.service.MOfficeSyncService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.service.WakeService" sender="any" />
-<prescription type="service" class="cn.wps.moffice.service.impl.MOfficeService" sender="any" />
-<!--  xunlei -->
-<prescription type="acyivity" class="com.xunlei.downloadprovider.ad.cmgame.CmGameCenterActivity" sender="any" />
-<prescription type="acyivity" class="com.xunlei.downloadprovider.ad.cmgame.CmGameGuideActivity" sender="any" />
-<prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewADActivity" sender="any" />
-<prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewToutiaoActivity" sender="any" />
-<prescription type="acyivity" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseClientActivity" sender="any" />
-<prescription type="acyivity" class="com.xunlei.downloadprovider.ad.revive.ReviveAdActivity" sender="any" />
-<prescription type="acyivity" class="com.xunlei.downloadprovider.ad.reward.activity.RewardVideoActivity" sender="any" />
-<prescription type="acyivity" class="com.xunlei.video.ad2.activity.GdtAdActivity" sender="any" />
-<prescription type="service" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseVpnService" sender="any" />
-<!--  Yandex广告 -->
-<prescription type="activity" class="com.yandex.mobile.ads.AdActivity" sender="any" />
-<!--  yidian -->
-<prescription type="activity" class="com.yidian.ad.install.InstallTransferActivity" sender="any" />
-<prescription type="activity" class="com.yidian.ad.ui.content.AdVideoContentActivity" sender="any" />
-<prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdPictureGalleryActivity" sender="any" />
-<prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdSuperPictureGalleryActivity" sender="any" />
-<prescription type="activity" class="com.yidian.ad.ui.splash.SplashActivity" sender="any" />
-<prescription type="activity" class="com.yidian.ad.ui.splash.SplashAdActivity" sender="any" />
-<prescription type="activity" class="com.yidian.ad.ui.splash.test.InternalLaunchScreenActivity" sender="any" />
-<prescription type="service" class="com.yidian.ad.install.LocalVPNService" sender="any" />
-<!--  youdao -->
-<prescription type="activity" class="com.youdao.dict.activity.YDAdWebActivity" sender="any" />
-<prescription type="acyivity" class="com.youdao.sdk.nativeads.YouDaoInterstitialActivity" sender="any" />
-<!--  youku -->
-<prescription type="acyivity" class="com.youku.ad.detail.container.AdPlayerWebViewActivity" sender="any" />
-<prescription type="acyivity" class="com.youku.ad.detail.container.AdWVWebViewActivity" sender="any" />
-<prescription type="acyivity" class="com.youku.ad.detail.container.LaifengAdWVWebViewActivity" sender="any" />
-<prescription type="acyivity" class="com.youku.ad.detail.container.LaifengUCAdWVWebViewActivity" sender="any" />
-<prescription type="acyivity" class="com.youku.ad.detail.container.UCAdPlayerWebViewActivity" sender="any" />
-<prescription type="acyivity" class="com.youku.ad.detail.container.UCAdWVWebViewActivity" sender="any" />
-<prescription type="acyivity" class="com.youku.ad.detail.container.download.DownloadManagerActivity" sender="any" />
-<prescription type="acyivity" class="com.youku.ad.detail.container.download.LaifengDownloadManagerActivity" sender="any" />
-<prescription type="acyivity" class="com.youku.player.ad.AdWebViewActivity" sender="any" />
-<!--  zhangyue -->
-<prescription type="activity" class="com.zhangyue.ad.ui.video.AdVideoActivity" sender="any" />
-<prescription type="activity" class="com.zhangyue.ireader.zyadsdk.ads.ADActivity" sender="any" />
-<prescription type="service" class="com.zhangyue.ad.AdService" sender="any" />
-<prescription type="service" class="com.zhangyue.iReader.ad.AdService" sender="any" />
-<!--  zhaocai -->
-<prescription type="activity" class="com.zhaocai.ad.sdk.ZhaoCaiActivity" sender="any" />
-<prescription type="activity" class="com.zhaocai.ad.sdk.content.ChannelActivity" sender="any" />
-<prescription type="activity" class="com.zhaocai.ad.sdk.content.ContentActivity" sender="any" />
-<!--  zhihu -->
-<prescription type="broadcast" class="com.zhihu.android.ad.download.wrapper.AdDwNotificationWrapper$NotificationBroadcastReceiver" sender="any" />
-<prescription type="service" class="com.zhihu.android.app.jobservice.AdTracksPushService" sender="any" />
-<prescription type="service" class="com.zhihu.android.sdk.launchad.LaunchImageDownloadService" sender="any" />
-<prescription type="service" class="com.zhihu.android.sdk.launchad.job.AdLaunchUpdateService" sender="any" />
-<!--  亚马逊移动广告 -->
-<prescription type="activity" class="com.amazon.device.ads.AdActivity" sender="any" />
-<!--  多盟广告 -->
-<prescription type="activity" class="cn.domob.android.ads.DomobActivity" sender="any" />
-<prescription type="activity" class="com.dm.sdk.ads.DMAdActivity" sender="any" />
-<!--  威朋广告 -->
-<prescription type="activity" class="com.vpadn.widget.VpadnActivity" sender="any" />
-<!--  小米广告 -->
-<prescription type="activity" class="com.xiaomi.ad.AdActivity" sender="any" />
-<prescription type="activity" class="com.xiaomi.ad.puppet.AdPuppetActivity" sender="any" />
-<!--  有米广告 -->
-<prescription type="activity" class="net.youmi.android.AdBrowser" sender="any" />
-<prescription type="broadcast" class="net.youmi.android.AdReceiver" sender="any" />
-<prescription type="service" class="net.youmi.android.AdService" sender="any" />
-<!--  洛米广告 -->
-<prescription type="activity" class="com.luomi.lm.ad.WebViewActivity" sender="any" />
-<prescription type="service" class="com.luomi.lm.ad.DownloadService" sender="any" />
-<!--  百度 -->
-<prescription type="activity" class="com.baidu.mobad.feeds.BaiduActivity" sender="any" />
-<prescription type="activity" class="com.baidu.mobads.AppActivity" sender="any" />
-<prescription type="activity" class="com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity" sender="any" />
-<prescription type="activity" class="com.baidu.tieba.ad.browser.AdTbWebViewActivity" sender="any" />
-<prescription type="activity" class="com.baidu.tieba.ad.browser.newstyle.NewAdTbWebViewActivity" sender="any" />
-<prescription type="broadcast" class="com.baidu.mobads.openad.BdFileProvider" sender="any" />
-<prescription type="broadcast" class="com.baidu.mobads.openad.FileProvider" sender="any" />
-<prescription type="broadcast" class="com.baidu.mobads.openad.FileProvider_Decorated_OpenAd" sender="any" />
-<prescription type="broadcast" class="com.baidu.netdisk.advertise.stats.storage.db.AdvertiseStatsProvider" sender="any" />
-<prescription type="broadcast" class="com.baidu.netdisk.advertise.storage.db.AdvertiseProvider" sender="any" />
-<prescription type="broadcast" class="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" sender="any" />
-<prescription type="broadcast" class="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" sender="any"/>
-<!--  腾讯广点通 -->
-<prescription type="activity" class="com.qq.e.ads.ADActivity" sender="any" />
-<prescription type="activity" class="com.qq.e.ads.LandscapeAdActivity" sender="any" />
-<prescription type="activity" class="com.qq.e.ads.PortraitADActivity" sender="any" />
-<prescription type="activity" class="com.qq.e.ads.RewardvideoLandscapeAdActivity" sender="any" />
-<prescription type="activity" class="com.qq.e.ads.RewardvideoPortraitADActivity" sender="any" />
-<prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
-<!--  腾讯热更新 -->
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08" sender="any" />
-<prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09" sender="any" />
-<!--  蜻蜓fm -->
-<prescription type="activity" class="fm.qingting.qtradio.ad.dynamic.GifAdActivity" sender="any" />
-<prescription type="activity" class="fm.qingting.qtradio.ad.dynamic.VideoAdActivity" sender="any" />
-<prescription type="broadcast" class="fm.qingting.qtradio.ad.ApkInstallNotificationReceiver" sender="any" />
-<prescription type="broadcast" class="fm.qingting.qtradio.ad.ApkInstallReceiver" sender="any" />
-<!--  谷歌广告 -->
-<prescription type="activity" class="com.google.ads.AdActivity" sender="any" />
-<prescription type="activity" class="com.google.android.gms.ads.AdActivity" sender="any" />
-<prescription type="activity" class="com.google.android.gms.ads.purchase.InAppPurchaseActivity" sender="any" />
-<prescription type="broadcast" class="com.google.ads.conversiontracking.InstallReceiver" sender="any"/>
-<prescription type="broadcast" class="com.google.android.gms.ads.config.FlagsReceiver" sender="any" />
-<prescription type="broadcast" class="com.google.android.gms.ads.config.GServicesChangedReceiver" sender="any" />
-<prescription type="broadcast" class="com.google.android.gms.ads.jams.SystemEventReceiver" sender="any" />
-<prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any" />
-<prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any"/>
-<prescription type="service" class="com.google.android.gms.ads.AdRequestBrokerService" sender="any"/>
-<prescription type="service" class="com.google.android.gms.ads.identifier.service.AdvertisingIdService" sender="any"/>
-<prescription type="service" class="com.google.android.gms.ads.measurement.AdsMeasurementService" sender="any"/>
-<prescription type="service" class="com.google.android.gms.ads.social.GcmSchedulerWakeupService" sender="any"/>
-<!--  豌豆荚广告 -->
-<prescription type="service" class="com.wandoujia.ads.sdk.download.AppDownloadService" sender="any" />
-<!--  字节跳动 -->
-<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" sender="any" />
-<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity" sender="any" />
-<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity" sender="any" />
-<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" sender="any" />
-<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity" sender="any" />
-<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity" sender="any" />
-<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity" sender="any" />
-<prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity" sender="any" />
-<prescription type="broadcast" class="com.bytedance.common.wschannel.server.WsChannelReceiver" sender="any" />
-<prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p0.StubReceiver" sender="any" />
-<prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p1.StubReceiver" sender="any" />
-<prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p2.StubReceiver" sender="any" />
-<prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p3.StubReceiver" sender="any" />
-<prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p4.StubReceiver" sender="any" />
-<prescription type="broadcast" class="com.bytedance.sdk.openadsdk.TTFileProvider" sender="any" />
-<prescription type="broadcast" class="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" sender="any" />
-<prescription type="service" class="com.bytedance.article.samsung.ActionService" sender="any" />
-<prescription type="service" class="com.bytedance.common.wschannel.client.WsClientService" sender="any" />
-<prescription type="service" class="com.bytedance.common.wschannel.server.WsChannelService" sender="any" />
-<prescription type="service" class="com.bytedance.frameworks.plugin.am.KeepAlive" sender="any" />
-<prescription type="service" class="com.bytedance.frameworks.plugin.am.KeepAlive\$InnerService" sender="any" />
-<prescription type="service" class="com.bytedance.frameworks.plugin.stub.p0.StubService" sender="any" />
-<prescription type="service" class="com.bytedance.frameworks.plugin.stub.p1.StubService" sender="any" />
-<prescription type="service" class="com.bytedance.frameworks.plugin.stub.p2.StubService" sender="any" />
-<prescription type="service" class="com.bytedance.frameworks.plugin.stub.p3.StubService" sender="any" />
-<prescription type="service" class="com.bytedance.frameworks.plugin.stub.p4.StubService" sender="any" />
-<prescription type="service" class="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" sender="any" />
-<prescription type="service" class="com.bytedance.tea.crash.upload.CrashUploadService" sender="any" />
-<!--  其他广告 -->
-<prescription type="activity" class="com.appicplay.sdk.ad.activity.APADViewActivity" sender="any" />
-<prescription type="activity" class="com.appicplay.sdk.ad.activity.APIVideoADActivity" sender="any" />
-<prescription type="activity" class="com.cloudtech.ads.view.InnerWebLandingActivity" sender="any" />
-<prescription type="activity" class="com.cloudtech.appwall.AppwallActivity" sender="any" />
-<prescription type="activity" class="com.cmcm.cmgame.ad.tt.FakeTTDelegateActivity" sender="any" />
-<prescription type="activity" class="com.jdwx.sdk.JDAdBrowser" sender="any" />
-<prescription type="activity" class="com.jingdong.app.mall.ad.ADActivity" sender="any" />
-<prescription type="activity" class="com.kyview.AdActivity" sender="any" />
-<prescription type="activity" class="com.kyview.AdviewWebView" sender="any" />
-<prescription type="activity" class="com.my.target.ads.MyTargetActivity" sender="any" />
-<prescription type="activity" class="com.oppo.mobad.activity.AdActivity" sender="any" />
-<prescription type="activity" class="com.sigmob.sdk.base.common.AdActivity" sender="any" />
-<prescription type="activity" class="com.taobao.tao.ad.AdNavActivity" sender="any" />
-<prescription type="activity" class="com.vivo.mobilead.web.VivoADSDKWebView" sender="any" />
-<prescription type="activity" class="org.na.ad.ui.AppActivity" sender="any" />
-<prescription type="broadcast" class="com.analytics.sdk.service.ad.AlarmReceiver" sender="any" />
-<prescription type="broadcast" class="com.yxcorp.gifshow.ad.detail.AppInstalledReceiver" sender="any" />
-<prescription type="service" class="com.birdhfn.sdk.openadsdk.multipro.aidl.BinderPoolService" sender="any" />
-<prescription type="service" class="com.jingdong.app.mall.service.ADService" sender="any" />
-<prescription type="service" class="com.kyview.DownloadService" sender="any" />
-<prescription type="service" class="com.moji.mjad.service.MJAdService" sender="any"/>
-<prescription type="service" class="com.opos.mobad.service.adService" sender="any" />
-<prescription type="service" class="com.oppo.mobad.service.AdService" sender="any" />
-<prescription type="service" class="com.yxcorp.gifshow.photoad.download.PhotoAdApkDownloadVpnService" sender="any" />
+<prescriptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="https://greenify.github.io/schemas/prescription/v3 ">
+
+    <prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any" />
+    <prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any" />
+    <prescription type="activity" class="com.jirbo.adcolony.AdColonyFullscreen" sender="any" />
+    <prescription type="activity" class="com.jirbo.adcolony.AdColonyOverlay" sender="any" />
+
+    <prescription type="service" class="com.appicplay.sdk.ad.service.DownloadService" sender="any" />
+
+    <prescription type="activity" class="com.bilibili.ad.adview.imax.AdIMaxActivity" sender="any" />
+    <prescription type="activity" class="com.bilibili.ad.adview.web.AdMWebActivity" sender="any" />
+    <prescription type="activity" class="com.bilibili.ad.adview.web.AdWebActivity" sender="any" />
+    <prescription type="activity" class="com.bilibili.ad.adview.web.apkdownload.AdDownloadQusActivity" sender="any" />
+    <prescription type="activity" class="com.bilibili.ad.apkdownload.AdNotificationQusActivity" sender="any" />
+    <prescription type="activity" class="com.bilibili.ad.utils.permission.PermissionActivity" sender="any" />
+
+    <prescription type="activity" class="com.cainiao.wireless.homepage.view.activity.AdsActivity" sender="any" />
+    <prescription type="activity" class="com.cainiao.wireless.homepage.view.activity.AdsWebViewActivity" sender="any" />
+
+    <prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.AdsPluginRRReceiver" sender="any" />
+    <prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.summary.SummaryNotificationReceiver"
+                  sender="any" />
+    <prescription type="broadcast" class="com.cootek.tark.ads.utility.AppInstallReceiver" sender="any" />
+    <prescription type="broadcast" class="com.cootek.tark.ads.utility.SSPReceiver" sender="any" />
+    <prescription type="service" class="com.cootek.tark.ads.sdk.AutoCacheService" sender="any" />
+
+    <prescription type="acyivity" class="com.cbx.cbxlib.ad.ADActivity" sender="any" />
+    <prescription type="broadcast" class="com.cbx.cbxlib.ad.AdReceiver" sender="any" />
+    <prescription type="broadcast" class="com.cbx.cbxlib.ad.CBXFileProvider" sender="any" />
+    <prescription type="service" class="com.cbx.cbxlib.ad.DownloadService" sender="any" />
+
+    <prescription type="activity" class="com.chartboost.sdk.CBImpressionActivity" sender="any" />
+
+    <prescription type="activity" class="com.ss.android.ad.activity.SingleTaskBrowserActivity" sender="any" />
+    <prescription type="activity" class="com.ss.android.ad.brandlist.AdBrandDetailActivity" sender="any" />
+    <prescription type="activity" class="com.ss.android.ad.landingpage.AdBrowserActivity" sender="any" />
+    <prescription type="activity" class="com.ss.android.ad.landingpage.AdLandingPageActivity" sender="any" />
+    <prescription type="activity" class="com.ss.android.ad.lp.browser.AdLpBrowserActivity" sender="any" />
+    <prescription type="activity" class="com.ss.android.article.base.feature.app.browser.AdBrowserActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.ss.android.ugc.aweme.app.AdsAppActivity" sender="any" />
+    <prescription type="activity" class="com.ss.android.ugc.aweme.feed.ad.BottomFormDialog" sender="any" />
+    <prescription type="service" class="com.ss.android.ad.impl.AdService" sender="any" />
+    <prescription type="service" class="com.ss.android.ad.impl.AdService" sender="any" />
+    <prescription type="service" class="com.ss.android.download.AdInterceptVpnService" sender="any" />
+
+    <prescription type="activity" class="com.donews.ad.sdk.stub.Stub1Activity" sender="any" />
+    <prescription type="activity" class="com.donews.ad.sdk.stub.Stub1SIActivity" sender="any" />
+    <prescription type="activity" class="com.donews.ad.sdk.stub.Stub1STAActivity" sender="any" />
+    <prescription type="activity" class="com.donews.ad.sdk.stub.Stub1STOctivity" sender="any" />
+    <prescription type="activity" class="com.donews.ad.sdk.stub.StubActivity" sender="any" />
+    <prescription type="activity" class="com.donews.ad.sdk.stub.StubSIActivity" sender="any" />
+    <prescription type="activity" class="com.donews.ad.sdk.stub.StubSTAActivity" sender="any" />
+    <prescription type="activity" class="com.donews.ad.sdk.stub.StubSTOctivity" sender="any" />
+    <prescription type="activity" class="com.donews.ad.sdk.stub.StubService" sender="any" />
+
+    <prescription type="service" class="com.dianping.ad.offlinepkg.MidasUpdateService" sender="any" />
+    <prescription type="service" class="com.dianping.advertisement.offlinepkg.MidasUpdateService" sender="any" />
+
+    <prescription type="activity" class="com.douban.ad.AdActivity" sender="any" />
+    <prescription type="broadcast" class="com.duokan.reader.domain.ad.AppDownloadReceiver" sender="any" />
+    <prescription type="broadcast" class="com.duokan.reader.domain.ad.AppInstallReceiver" sender="any" />
+
+    <prescription type="activity" class="com.facebook.ads.AudienceNetworkActivity" sender="any" />
+
+    <prescription type="activity" class="com.inmobi.androidsdk.IMBrowserActivity" sender="any" />
+    <prescription type="activity" class="com.inmobi.rendering.InMobiAdActivity" sender="any" />
+    <prescription type="broadcast" class="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"
+                  sender="any" />
+    <prescription type="service" class="com.inmobi.ads.ApkDownloader$ApkDownloadService" sender="any" />
+
+    <prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADActivity" sender="any" />
+    <prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADIndependentActivity"
+                  sender="any" />
+    <prescription type="activity" class="org.qiyi.android.card.ad.AdFormActivity" sender="any" />
+    <prescription type="activity" class="org.qiyi.android.video.activitys.AdActivity" sender="any" />
+    <prescription type="activity" class="org.qiyi.android.video.ad.ArAdActivity" sender="any" />
+    <prescription type="activity" class="org.qiyi.android.video.ad.ArAdShareActivity" sender="any" />
+    <prescription type="activity" class="org.qiyi.video.playrecord.ad.ADActivity" sender="any" />
+    <prescription type="activity" class="org.qiyi.video.playrecord.ad.ADIndependentActivity" sender="any" />
+
+    <prescription type="activity" class="com.keymob.sdk.core.KeymobActivity" sender="any" />
+
+    <prescription type="activity" class="com.kugou.android.ads.feev4.activity.FeeV4VideoActivity" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppInterstitialADActivity" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity1" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity2" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity3" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity4" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity5" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity1" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity2" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity3" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity4" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity5" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity1"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity2"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity3"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity4"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity5"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity1"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity2"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity3"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity4"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity5"
+                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.PrepareAdActivity" sender="any" />
+
+    <prescription type="activity" class="com.meituan.android.pt.group.poi.push.PushAdvertisementActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.sankuai.meituan.poi.push.PushAdvertisementActivity" sender="any" />
+    <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" sender="any" />
+    <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" sender="any" />
+    <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.cpc.CpcUploadService" sender="any" />
+    <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.cpc.CpcUploadService" sender="any" />
+
+    <prescription type="activity" class="com.millennialmedia.android.MMActivity" sender="any" />
+
+    <prescription type="activity" class="com.mob.adsdk.activity.BADActivity" sender="any" />
+    <prescription type="activity" class="com.mob.adsdk.activity.LandscapeADActivity" sender="any" />
+    <prescription type="activity" class="com.mob.adsdk.activity.PortraitADActivity" sender="any" />
+    <prescription type="activity" class="com.mob.adsdk.activity.WebViewActivity" sender="any" />
+    <prescription type="broadcast" class="com.mob.adsdk.MobADFileProvider" sender="any" />
+
+    <prescription type="activity" class="com.mopub.mobileads.MoPubActivity" sender="any" />
+    <prescription type="activity" class="com.mopub.mobileads.MraidActiviy" sender="any" />
+    <prescription type="activity" class="com.mopub.mobileads.MraidVideoPlayerActivity" sender="any" />
+
+    <prescription type="broadcast" class="nativesdk.ad.common.receiver.NetworkSwitchReceiver" sender="any" />
+    <prescription type="broadcast" class="nativesdk.ad.common.receiver.PackageAddedReceiver" sender="any" />
+    <prescription type="broadcast" class="nativesdk.ad.common.utils.SdkInternal$AppwallActionReceiver" sender="any" />
+    <prescription type="service" class="nativesdk.ad.common.service.AdPreloadService" sender="any" />
+
+    <prescription type="activity" class="com.netease.moneykeeper.ui.ad.AdDialogActivity" sender="any" />
+    <prescription type="activity" class="com.netease.newsreader.common.ad.addownload.AdDownloadManageActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.netease.nr.biz.ad.ExtraAdActivity" sender="any" />
+    <prescription type="activity" class="com.netease.nr.biz.pc.addownload.AdDownloadManageActivity" sender="any" />
+    <prescription type="service" class="com.netease.newsreader.common.ad.addownload.AdDownloadService" sender="any" />
+    <prescription type="service" class="com.netease.nr.biz.ad.AdPrefetchService" sender="any" />
+
+    <prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuAdActivity" sender="any" />
+    <prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuVideoDetailPageActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.sohu.app.ads.sdk.settings.AdSettingActivity" sender="any" />
+    <prescription type="service" class="com.sohu.app.ads.download.DownloadService" sender="any" />
+    <prescription type="service" class="com.sohu.app.ads.sdk.arch.ProcessLifecycleOwnerInitializer" sender="any" />
+    <prescription type="service" class="com.sohu.app.ads.sdk.download.DownloadService" sender="any" />
+    <prescription type="service" class="com.sohu.app.ads.sdk.download.DownloadService" sender="any" />
+
+    <prescription type="service" class="com.talkingdata.sdk.TDAntiCheatingService" sender="any" />
+
+    <prescription type="activity" class="com.tencent.ads.canvasad.AdCanvasActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.ads.landing.AdLandingPageActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI" sender="any" />
+    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI1" sender="any" />
+    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI2" sender="any" />
+    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI3" sender="any" />
+    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI4" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.novel.WebNovelActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.splash.AdCanvasActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdBrandActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdBrandGuestActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdNativeCanvasActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.CustomWebGameForItemActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.VideoAdLandingActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebAdvertActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebVideoAdvertActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.splash.AdCanvasActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.ui.activity.AdNativeCanvasActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.ui.activity.VideoAdLandingActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.ui.activity.WebAdvertActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.ui.activity.WebDialogActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.ui.activity.WebVideoAdvertActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.ui.ADInnerJumpActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.qqlive.ona.ad.AdExternalFormActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.qqlive.ona.browser.AdLandPageH5Activity" sender="any" />
+    <prescription type="activity" class="com.tencent.qqlive.tad.download.TadCancelActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.qqlive.tad.splash.AdCanvasActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.qqlive.tad.splash.AdLandingPageActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.reading.module.splash.AdActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.reading.tad.myad.ui.view.AdActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.reading.tad.ui.WebAdvertActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.reading.tad.ui.WebDialogActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.tads.splash.AdLandingPageActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.vas.adsdk.pkadvertisement.PkAdActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.vas.adsdk.webview.BrowserActivity" sender="any" />
+
+    <prescription type="activity" class="com.sina.weibo.movie.startup.AdActivity" sender="any" />
+    <prescription type="activity" class="com.weibo.mobileads.view.AdActivity" sender="any" />
+    <prescription type="activity" class="com.weibo.mobileads.view.FlashAdActivity" sender="any" />
+
+    <prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubInterstitialAdActivity" sender="any" />
+    <prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubNativeInterstitialAdsActivity"
+                  sender="any" />
+    <prescription type="activity" class="cn.wps.moffice.main.push.backkeyad.BackkeyAdActivity" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.MiPushMessageReceiver" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.main.ad.sdkreport.SdkReportProvider" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.main.getui.GetuiPushReceiver" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.main.membershipshell.AppRegister" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.main.push.interstitial.SelfReceiver" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.main.push.util.PushPenetrateMsgReceiver" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.main.shortcut.fastaccess.mute.MuteReceiver" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.main.ttsservice.MediaButtonBroadcastReceiver" sender="any" />
+    <prescription type="broadcast" class="cn.wps.moffice.service.receivers.MonitorServiceReceiver" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.appupdate.AppUpdateService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.backup.BackupService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.common.download.extlibs.service.DownloadService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.feedback.upload.FeedbackSenderService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.HWQuickActionService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.cloud.storage.core.service.CSService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.getui.GetuiService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.push.service.PusherService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.scan.util.ModelService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService\$GrayInnerService"
+                  sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.ttsservice.TTSNotificationDealService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.service.CrashLogSenderService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.service.MOfficeSyncService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.service.WakeService" sender="any" />
+    <prescription type="service" class="cn.wps.moffice.service.impl.MOfficeService" sender="any" />
+
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.cmgame.CmGameCenterActivity" sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.cmgame.CmGameGuideActivity" sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewADActivity"
+                  sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewToutiaoActivity"
+                  sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseClientActivity"
+                  sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.revive.ReviveAdActivity" sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.reward.activity.RewardVideoActivity"
+                  sender="any" />
+    <prescription type="acyivity" class="com.xunlei.video.ad2.activity.GdtAdActivity" sender="any" />
+    <prescription type="service" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseVpnService"
+                  sender="any" />
+
+    <prescription type="activity" class="com.yandex.mobile.ads.AdActivity" sender="any" />
+
+    <prescription type="activity" class="com.yidian.ad.install.InstallTransferActivity" sender="any" />
+    <prescription type="activity" class="com.yidian.ad.ui.content.AdVideoContentActivity" sender="any" />
+    <prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdPictureGalleryActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdSuperPictureGalleryActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.yidian.ad.ui.splash.SplashActivity" sender="any" />
+    <prescription type="activity" class="com.yidian.ad.ui.splash.SplashAdActivity" sender="any" />
+    <prescription type="activity" class="com.yidian.ad.ui.splash.test.InternalLaunchScreenActivity" sender="any" />
+    <prescription type="service" class="com.yidian.ad.install.LocalVPNService" sender="any" />
+
+    <prescription type="activity" class="com.youdao.dict.activity.YDAdWebActivity" sender="any" />
+    <prescription type="acyivity" class="com.youdao.sdk.nativeads.YouDaoInterstitialActivity" sender="any" />
+
+    <prescription type="acyivity" class="com.youku.ad.detail.container.AdPlayerWebViewActivity" sender="any" />
+    <prescription type="acyivity" class="com.youku.ad.detail.container.AdWVWebViewActivity" sender="any" />
+    <prescription type="acyivity" class="com.youku.ad.detail.container.LaifengAdWVWebViewActivity" sender="any" />
+    <prescription type="acyivity" class="com.youku.ad.detail.container.LaifengUCAdWVWebViewActivity" sender="any" />
+    <prescription type="acyivity" class="com.youku.ad.detail.container.UCAdPlayerWebViewActivity" sender="any" />
+    <prescription type="acyivity" class="com.youku.ad.detail.container.UCAdWVWebViewActivity" sender="any" />
+    <prescription type="acyivity" class="com.youku.ad.detail.container.download.DownloadManagerActivity" sender="any" />
+    <prescription type="acyivity" class="com.youku.ad.detail.container.download.LaifengDownloadManagerActivity"
+                  sender="any" />
+    <prescription type="acyivity" class="com.youku.player.ad.AdWebViewActivity" sender="any" />
+
+    <prescription type="activity" class="com.zhangyue.ad.ui.video.AdVideoActivity" sender="any" />
+    <prescription type="activity" class="com.zhangyue.ireader.zyadsdk.ads.ADActivity" sender="any" />
+    <prescription type="service" class="com.zhangyue.ad.AdService" sender="any" />
+    <prescription type="service" class="com.zhangyue.iReader.ad.AdService" sender="any" />
+
+    <prescription type="activity" class="com.zhaocai.ad.sdk.ZhaoCaiActivity" sender="any" />
+    <prescription type="activity" class="com.zhaocai.ad.sdk.content.ChannelActivity" sender="any" />
+    <prescription type="activity" class="com.zhaocai.ad.sdk.content.ContentActivity" sender="any" />
+
+    <prescription type="broadcast"
+                  class="com.zhihu.android.ad.download.wrapper.AdDwNotificationWrapper$NotificationBroadcastReceiver"
+                  sender="any" />
+    <prescription type="service" class="com.zhihu.android.app.jobservice.AdTracksPushService" sender="any" />
+    <prescription type="service" class="com.zhihu.android.sdk.launchad.LaunchImageDownloadService" sender="any" />
+    <prescription type="service" class="com.zhihu.android.sdk.launchad.job.AdLaunchUpdateService" sender="any" />
+
+    <prescription type="activity" class="com.amazon.device.ads.AdActivity" sender="any" />
+
+    <prescription type="activity" class="cn.domob.android.ads.DomobActivity" sender="any" />
+    <prescription type="activity" class="com.dm.sdk.ads.DMAdActivity" sender="any" />
+
+    <prescription type="activity" class="com.vpadn.widget.VpadnActivity" sender="any" />
+
+    <prescription type="activity" class="com.xiaomi.ad.AdActivity" sender="any" />
+    <prescription type="activity" class="com.xiaomi.ad.puppet.AdPuppetActivity" sender="any" />
+
+    <prescription type="activity" class="net.youmi.android.AdBrowser" sender="any" />
+    <prescription type="broadcast" class="net.youmi.android.AdReceiver" sender="any" />
+    <prescription type="service" class="net.youmi.android.AdService" sender="any" />
+
+    <prescription type="activity" class="com.luomi.lm.ad.WebViewActivity" sender="any" />
+    <prescription type="service" class="com.luomi.lm.ad.DownloadService" sender="any" />
+
+    <prescription type="activity" class="com.baidu.mobad.feeds.BaiduActivity" sender="any" />
+    <prescription type="activity" class="com.baidu.mobads.AppActivity" sender="any" />
+    <prescription type="activity" class="com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity" sender="any" />
+    <prescription type="activity" class="com.baidu.tieba.ad.browser.AdTbWebViewActivity" sender="any" />
+    <prescription type="activity" class="com.baidu.tieba.ad.browser.newstyle.NewAdTbWebViewActivity" sender="any" />
+    <prescription type="broadcast" class="com.baidu.mobads.openad.BdFileProvider" sender="any" />
+    <prescription type="broadcast" class="com.baidu.mobads.openad.FileProvider" sender="any" />
+    <prescription type="broadcast" class="com.baidu.mobads.openad.FileProvider_Decorated_OpenAd" sender="any" />
+    <prescription type="broadcast" class="com.baidu.netdisk.advertise.stats.storage.db.AdvertiseStatsProvider"
+                  sender="any" />
+    <prescription type="broadcast" class="com.baidu.netdisk.advertise.storage.db.AdvertiseProvider" sender="any" />
+    <prescription type="broadcast" class="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" sender="any" />
+    <prescription type="broadcast" class="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" sender="any" />
+
+    <prescription type="activity" class="com.qq.e.ads.ADActivity" sender="any" />
+    <prescription type="activity" class="com.qq.e.ads.LandscapeAdActivity" sender="any" />
+    <prescription type="activity" class="com.qq.e.ads.PortraitADActivity" sender="any" />
+    <prescription type="activity" class="com.qq.e.ads.RewardvideoLandscapeAdActivity" sender="any" />
+    <prescription type="activity" class="com.qq.e.ads.RewardvideoPortraitADActivity" sender="any" />
+    <prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
+
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08" sender="any" />
+    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09" sender="any" />
+
+    <prescription type="activity" class="fm.qingting.qtradio.ad.dynamic.GifAdActivity" sender="any" />
+    <prescription type="activity" class="fm.qingting.qtradio.ad.dynamic.VideoAdActivity" sender="any" />
+    <prescription type="broadcast" class="fm.qingting.qtradio.ad.ApkInstallNotificationReceiver" sender="any" />
+    <prescription type="broadcast" class="fm.qingting.qtradio.ad.ApkInstallReceiver" sender="any" />
+
+    <prescription type="activity" class="com.google.ads.AdActivity" sender="any" />
+    <prescription type="activity" class="com.google.android.gms.ads.AdActivity" sender="any" />
+    <prescription type="activity" class="com.google.android.gms.ads.purchase.InAppPurchaseActivity" sender="any" />
+    <prescription type="broadcast" class="com.google.ads.conversiontracking.InstallReceiver" sender="any" />
+    <prescription type="broadcast" class="com.google.android.gms.ads.config.FlagsReceiver" sender="any" />
+    <prescription type="broadcast" class="com.google.android.gms.ads.config.GServicesChangedReceiver" sender="any" />
+    <prescription type="broadcast" class="com.google.android.gms.ads.jams.SystemEventReceiver" sender="any" />
+    <prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any" />
+    <prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any" />
+    <prescription type="service" class="com.google.android.gms.ads.AdRequestBrokerService" sender="any" />
+    <prescription type="service" class="com.google.android.gms.ads.identifier.service.AdvertisingIdService"
+                  sender="any" />
+    <prescription type="service" class="com.google.android.gms.ads.measurement.AdsMeasurementService" sender="any" />
+    <prescription type="service" class="com.google.android.gms.ads.social.GcmSchedulerWakeupService" sender="any" />
+
+    <prescription type="service" class="com.wandoujia.ads.sdk.download.AppDownloadService" sender="any" />
+
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity" sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"
+                  sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity" sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"
+                  sender="any" />
+    <prescription type="broadcast" class="com.bytedance.common.wschannel.server.WsChannelReceiver" sender="any" />
+    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p0.StubReceiver" sender="any" />
+    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p1.StubReceiver" sender="any" />
+    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p2.StubReceiver" sender="any" />
+    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p3.StubReceiver" sender="any" />
+    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p4.StubReceiver" sender="any" />
+    <prescription type="broadcast" class="com.bytedance.sdk.openadsdk.TTFileProvider" sender="any" />
+    <prescription type="broadcast" class="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" sender="any" />
+    <prescription type="service" class="com.bytedance.article.samsung.ActionService" sender="any" />
+    <prescription type="service" class="com.bytedance.common.wschannel.client.WsClientService" sender="any" />
+    <prescription type="service" class="com.bytedance.common.wschannel.server.WsChannelService" sender="any" />
+    <prescription type="service" class="com.bytedance.frameworks.plugin.am.KeepAlive" sender="any" />
+    <prescription type="service" class="com.bytedance.frameworks.plugin.am.KeepAlive\$InnerService" sender="any" />
+    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p0.StubService" sender="any" />
+    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p1.StubService" sender="any" />
+    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p2.StubService" sender="any" />
+    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p3.StubService" sender="any" />
+    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p4.StubService" sender="any" />
+    <prescription type="service" class="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" sender="any" />
+    <prescription type="service" class="com.bytedance.tea.crash.upload.CrashUploadService" sender="any" />
+
+    <prescription type="activity" class="com.appicplay.sdk.ad.activity.APADViewActivity" sender="any" />
+    <prescription type="activity" class="com.appicplay.sdk.ad.activity.APIVideoADActivity" sender="any" />
+    <prescription type="activity" class="com.cloudtech.ads.view.InnerWebLandingActivity" sender="any" />
+    <prescription type="activity" class="com.cloudtech.appwall.AppwallActivity" sender="any" />
+    <prescription type="activity" class="com.cmcm.cmgame.ad.tt.FakeTTDelegateActivity" sender="any" />
+    <prescription type="activity" class="com.jdwx.sdk.JDAdBrowser" sender="any" />
+    <prescription type="activity" class="com.jingdong.app.mall.ad.ADActivity" sender="any" />
+    <prescription type="activity" class="com.kyview.AdActivity" sender="any" />
+    <prescription type="activity" class="com.kyview.AdviewWebView" sender="any" />
+    <prescription type="activity" class="com.my.target.ads.MyTargetActivity" sender="any" />
+    <prescription type="activity" class="com.oppo.mobad.activity.AdActivity" sender="any" />
+    <prescription type="activity" class="com.sigmob.sdk.base.common.AdActivity" sender="any" />
+    <prescription type="activity" class="com.taobao.tao.ad.AdNavActivity" sender="any" />
+    <prescription type="activity" class="com.vivo.mobilead.web.VivoADSDKWebView" sender="any" />
+    <prescription type="activity" class="org.na.ad.ui.AppActivity" sender="any" />
+    <prescription type="broadcast" class="com.analytics.sdk.service.ad.AlarmReceiver" sender="any" />
+    <prescription type="broadcast" class="com.yxcorp.gifshow.ad.detail.AppInstalledReceiver" sender="any" />
+    <prescription type="service" class="com.birdhfn.sdk.openadsdk.multipro.aidl.BinderPoolService" sender="any" />
+    <prescription type="service" class="com.jingdong.app.mall.service.ADService" sender="any" />
+    <prescription type="service" class="com.kyview.DownloadService" sender="any" />
+    <prescription type="service" class="com.moji.mjad.service.MJAdService" sender="any" />
+    <prescription type="service" class="com.opos.mobad.service.adService" sender="any" />
+    <prescription type="service" class="com.oppo.mobad.service.AdService" sender="any" />
+    <prescription type="service" class="com.yxcorp.gifshow.photoad.download.PhotoAdApkDownloadVpnService"
+                  sender="any" />
 </prescriptions>
