@@ -18,8 +18,7 @@
     <prescription type="activity" class="com.cainiao.wireless.homepage.view.activity.AdsWebViewActivity" sender="any" />
 
     <prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.AdsPluginRRReceiver" sender="any" />
-    <prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.summary.SummaryNotificationReceiver"
-                  sender="any" />
+    <prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.summary.SummaryNotificationReceiver" sender="any" />
     <prescription type="broadcast" class="com.cootek.tark.ads.utility.AppInstallReceiver" sender="any" />
     <prescription type="broadcast" class="com.cootek.tark.ads.utility.SSPReceiver" sender="any" />
     <prescription type="service" class="com.cootek.tark.ads.sdk.AutoCacheService" sender="any" />
@@ -36,8 +35,7 @@
     <prescription type="activity" class="com.ss.android.ad.landingpage.AdBrowserActivity" sender="any" />
     <prescription type="activity" class="com.ss.android.ad.landingpage.AdLandingPageActivity" sender="any" />
     <prescription type="activity" class="com.ss.android.ad.lp.browser.AdLpBrowserActivity" sender="any" />
-    <prescription type="activity" class="com.ss.android.article.base.feature.app.browser.AdBrowserActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.ss.android.article.base.feature.app.browser.AdBrowserActivity" sender="any" />
     <prescription type="activity" class="com.ss.android.ugc.aweme.app.AdsAppActivity" sender="any" />
     <prescription type="activity" class="com.ss.android.ugc.aweme.feed.ad.BottomFormDialog" sender="any" />
     <prescription type="service" class="com.ss.android.ad.impl.AdService" sender="any" />
@@ -65,13 +63,11 @@
 
     <prescription type="activity" class="com.inmobi.androidsdk.IMBrowserActivity" sender="any" />
     <prescription type="activity" class="com.inmobi.rendering.InMobiAdActivity" sender="any" />
-    <prescription type="broadcast" class="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"
-                  sender="any" />
+    <prescription type="broadcast" class="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" sender="any" />
     <prescription type="service" class="com.inmobi.ads.ApkDownloader$ApkDownloadService" sender="any" />
 
     <prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADActivity" sender="any" />
-    <prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADIndependentActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADIndependentActivity" sender="any" />
     <prescription type="activity" class="org.qiyi.android.card.ad.AdFormActivity" sender="any" />
     <prescription type="activity" class="org.qiyi.android.video.activitys.AdActivity" sender="any" />
     <prescription type="activity" class="org.qiyi.android.video.ad.ArAdActivity" sender="any" />
@@ -95,30 +91,19 @@
     <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity3" sender="any" />
     <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity4" sender="any" />
     <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity5" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity1"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity2"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity3"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity4"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity5"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity1"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity2"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity3"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity4"
-                  sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity5"
-                  sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity1" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity2" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity3" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity4" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity5" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity1" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity2" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity3" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity4" sender="any" />
+    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity5" sender="any" />
     <prescription type="activity" class="com.kugou.android.app.miniapp.ad.PrepareAdActivity" sender="any" />
 
-    <prescription type="activity" class="com.meituan.android.pt.group.poi.push.PushAdvertisementActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.meituan.android.pt.group.poi.push.PushAdvertisementActivity" sender="any" />
     <prescription type="activity" class="com.sankuai.meituan.poi.push.PushAdvertisementActivity" sender="any" />
     <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" sender="any" />
     <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" sender="any" />
@@ -143,16 +128,14 @@
     <prescription type="service" class="nativesdk.ad.common.service.AdPreloadService" sender="any" />
 
     <prescription type="activity" class="com.netease.moneykeeper.ui.ad.AdDialogActivity" sender="any" />
-    <prescription type="activity" class="com.netease.newsreader.common.ad.addownload.AdDownloadManageActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.netease.newsreader.common.ad.addownload.AdDownloadManageActivity" sender="any" />
     <prescription type="activity" class="com.netease.nr.biz.ad.ExtraAdActivity" sender="any" />
     <prescription type="activity" class="com.netease.nr.biz.pc.addownload.AdDownloadManageActivity" sender="any" />
     <prescription type="service" class="com.netease.newsreader.common.ad.addownload.AdDownloadService" sender="any" />
     <prescription type="service" class="com.netease.nr.biz.ad.AdPrefetchService" sender="any" />
 
     <prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuAdActivity" sender="any" />
-    <prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuVideoDetailPageActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuVideoDetailPageActivity" sender="any" />
     <prescription type="activity" class="com.sohu.app.ads.sdk.settings.AdSettingActivity" sender="any" />
     <prescription type="service" class="com.sohu.app.ads.download.DownloadService" sender="any" />
     <prescription type="service" class="com.sohu.app.ads.sdk.arch.ProcessLifecycleOwnerInitializer" sender="any" />
@@ -172,15 +155,11 @@
     <prescription type="activity" class="com.tencent.news.tad.business.splash.AdCanvasActivity" sender="any" />
     <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdBrandActivity" sender="any" />
     <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdBrandGuestActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdNativeCanvasActivity"
-                  sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.CustomWebGameForItemActivity"
-                  sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.VideoAdLandingActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdNativeCanvasActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.CustomWebGameForItemActivity" sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.VideoAdLandingActivity" sender="any" />
     <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebAdvertActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebVideoAdvertActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebVideoAdvertActivity" sender="any" />
     <prescription type="activity" class="com.tencent.news.tad.splash.AdCanvasActivity" sender="any" />
     <prescription type="activity" class="com.tencent.news.tad.ui.activity.AdNativeCanvasActivity" sender="any" />
     <prescription type="activity" class="com.tencent.news.tad.ui.activity.VideoAdLandingActivity" sender="any" />
@@ -206,8 +185,7 @@
     <prescription type="activity" class="com.weibo.mobileads.view.FlashAdActivity" sender="any" />
 
     <prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubInterstitialAdActivity" sender="any" />
-    <prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubNativeInterstitialAdsActivity"
-                  sender="any" />
+    <prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubNativeInterstitialAdsActivity" sender="any" />
     <prescription type="activity" class="cn.wps.moffice.main.push.backkeyad.BackkeyAdActivity" sender="any" />
     <prescription type="broadcast" class="cn.wps.moffice.MiPushMessageReceiver" sender="any" />
     <prescription type="broadcast" class="cn.wps.moffice.main.ad.sdkreport.SdkReportProvider" sender="any" />
@@ -228,8 +206,7 @@
     <prescription type="service" class="cn.wps.moffice.main.push.service.PusherService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.main.scan.util.ModelService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService\$GrayInnerService"
-                  sender="any" />
+    <prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService\$GrayInnerService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.main.ttsservice.TTSNotificationDealService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.service.CrashLogSenderService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.service.MOfficeSyncService" sender="any" />
@@ -238,27 +215,20 @@
 
     <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.cmgame.CmGameCenterActivity" sender="any" />
     <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.cmgame.CmGameGuideActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewADActivity"
-                  sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewToutiaoActivity"
-                  sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseClientActivity"
-                  sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewADActivity" sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewToutiaoActivity" sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseClientActivity" sender="any" />
     <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.revive.ReviveAdActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.reward.activity.RewardVideoActivity"
-                  sender="any" />
+    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.reward.activity.RewardVideoActivity" sender="any" />
     <prescription type="acyivity" class="com.xunlei.video.ad2.activity.GdtAdActivity" sender="any" />
-    <prescription type="service" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseVpnService"
-                  sender="any" />
+    <prescription type="service" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseVpnService" sender="any" />
 
     <prescription type="activity" class="com.yandex.mobile.ads.AdActivity" sender="any" />
 
     <prescription type="activity" class="com.yidian.ad.install.InstallTransferActivity" sender="any" />
     <prescription type="activity" class="com.yidian.ad.ui.content.AdVideoContentActivity" sender="any" />
-    <prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdPictureGalleryActivity"
-                  sender="any" />
-    <prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdSuperPictureGalleryActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdPictureGalleryActivity" sender="any" />
+    <prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdSuperPictureGalleryActivity" sender="any" />
     <prescription type="activity" class="com.yidian.ad.ui.splash.SplashActivity" sender="any" />
     <prescription type="activity" class="com.yidian.ad.ui.splash.SplashAdActivity" sender="any" />
     <prescription type="activity" class="com.yidian.ad.ui.splash.test.InternalLaunchScreenActivity" sender="any" />
@@ -274,8 +244,7 @@
     <prescription type="acyivity" class="com.youku.ad.detail.container.UCAdPlayerWebViewActivity" sender="any" />
     <prescription type="acyivity" class="com.youku.ad.detail.container.UCAdWVWebViewActivity" sender="any" />
     <prescription type="acyivity" class="com.youku.ad.detail.container.download.DownloadManagerActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.ad.detail.container.download.LaifengDownloadManagerActivity"
-                  sender="any" />
+    <prescription type="acyivity" class="com.youku.ad.detail.container.download.LaifengDownloadManagerActivity" sender="any" />
     <prescription type="acyivity" class="com.youku.player.ad.AdWebViewActivity" sender="any" />
 
     <prescription type="activity" class="com.zhangyue.ad.ui.video.AdVideoActivity" sender="any" />
@@ -287,9 +256,7 @@
     <prescription type="activity" class="com.zhaocai.ad.sdk.content.ChannelActivity" sender="any" />
     <prescription type="activity" class="com.zhaocai.ad.sdk.content.ContentActivity" sender="any" />
 
-    <prescription type="broadcast"
-                  class="com.zhihu.android.ad.download.wrapper.AdDwNotificationWrapper$NotificationBroadcastReceiver"
-                  sender="any" />
+    <prescription type="broadcast" class="com.zhihu.android.ad.download.wrapper.AdDwNotificationWrapper$NotificationBroadcastReceiver" sender="any" />
     <prescription type="service" class="com.zhihu.android.app.jobservice.AdTracksPushService" sender="any" />
     <prescription type="service" class="com.zhihu.android.sdk.launchad.LaunchImageDownloadService" sender="any" />
     <prescription type="service" class="com.zhihu.android.sdk.launchad.job.AdLaunchUpdateService" sender="any" />
@@ -319,8 +286,7 @@
     <prescription type="broadcast" class="com.baidu.mobads.openad.BdFileProvider" sender="any" />
     <prescription type="broadcast" class="com.baidu.mobads.openad.FileProvider" sender="any" />
     <prescription type="broadcast" class="com.baidu.mobads.openad.FileProvider_Decorated_OpenAd" sender="any" />
-    <prescription type="broadcast" class="com.baidu.netdisk.advertise.stats.storage.db.AdvertiseStatsProvider"
-                  sender="any" />
+    <prescription type="broadcast" class="com.baidu.netdisk.advertise.stats.storage.db.AdvertiseStatsProvider" sender="any" />
     <prescription type="broadcast" class="com.baidu.netdisk.advertise.storage.db.AdvertiseProvider" sender="any" />
     <prescription type="broadcast" class="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" sender="any" />
     <prescription type="broadcast" class="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" sender="any" />
@@ -400,25 +366,20 @@
     <prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any" />
     <prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any" />
     <prescription type="service" class="com.google.android.gms.ads.AdRequestBrokerService" sender="any" />
-    <prescription type="service" class="com.google.android.gms.ads.identifier.service.AdvertisingIdService"
-                  sender="any" />
+    <prescription type="service" class="com.google.android.gms.ads.identifier.service.AdvertisingIdService" sender="any" />
     <prescription type="service" class="com.google.android.gms.ads.measurement.AdsMeasurementService" sender="any" />
     <prescription type="service" class="com.google.android.gms.ads.social.GcmSchedulerWakeupService" sender="any" />
 
     <prescription type="service" class="com.wandoujia.ads.sdk.download.AppDownloadService" sender="any" />
 
     <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity" sender="any" />
     <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity" sender="any" />
     <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
-                  sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity" sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity" sender="any" />
     <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity"
-                  sender="any" />
+    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity" sender="any" />
     <prescription type="broadcast" class="com.bytedance.common.wschannel.server.WsChannelReceiver" sender="any" />
     <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p0.StubReceiver" sender="any" />
     <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p1.StubReceiver" sender="any" />
@@ -463,6 +424,5 @@
     <prescription type="service" class="com.moji.mjad.service.MJAdService" sender="any" />
     <prescription type="service" class="com.opos.mobad.service.adService" sender="any" />
     <prescription type="service" class="com.oppo.mobad.service.AdService" sender="any" />
-    <prescription type="service" class="com.yxcorp.gifshow.photoad.download.PhotoAdApkDownloadVpnService"
-                  sender="any" />
+    <prescription type="service" class="com.yxcorp.gifshow.photoad.download.PhotoAdApkDownloadVpnService" sender="any" />
 </prescriptions>
