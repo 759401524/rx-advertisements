@@ -1,428 +1,1934 @@
-<prescriptions xmlns="https://greenify.github.io/schemas/prescription/v3">
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+    <intent-filter>
+        <action name="com.jirbo.adcolony.AdColonyBrowser" />
+    </intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.jirbo.adcolony.AdColonyBrowser" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.jirbo.adcolony.AdColonyFullscreen" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.jirbo.adcolony.AdColonyOverlay" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any" />
-    <prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any" />
-    <prescription type="activity" class="com.jirbo.adcolony.AdColonyFullscreen" sender="any" />
-    <prescription type="activity" class="com.jirbo.adcolony.AdColonyOverlay" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.appicplay.sdk.ad.service.DownloadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="service" class="com.appicplay.sdk.ad.service.DownloadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bilibili.ad.adview.imax.AdIMaxActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bilibili.ad.adview.web.AdMWebActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bilibili.ad.adview.web.AdWebActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bilibili.ad.adview.web.apkdownload.AdDownloadQusActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bilibili.ad.apkdownload.AdNotificationQusActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bilibili.ad.utils.permission.PermissionActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.bilibili.ad.adview.imax.AdIMaxActivity" sender="any" />
-    <prescription type="activity" class="com.bilibili.ad.adview.web.AdMWebActivity" sender="any" />
-    <prescription type="activity" class="com.bilibili.ad.adview.web.AdWebActivity" sender="any" />
-    <prescription type="activity" class="com.bilibili.ad.adview.web.apkdownload.AdDownloadQusActivity" sender="any" />
-    <prescription type="activity" class="com.bilibili.ad.apkdownload.AdNotificationQusActivity" sender="any" />
-    <prescription type="activity" class="com.bilibili.ad.utils.permission.PermissionActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.cainiao.wireless.homepage.view.activity.AdsActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.cainiao.wireless.homepage.view.activity.AdsWebViewActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.cainiao.wireless.homepage.view.activity.AdsActivity" sender="any" />
-    <prescription type="activity" class="com.cainiao.wireless.homepage.view.activity.AdsWebViewActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.cootek.smartinput5.func.adsplugin.AdsPluginRRReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.cootek.smartinput5.func.adsplugin.summary.SummaryNotificationReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.cootek.tark.ads.utility.AppInstallReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.cootek.tark.ads.utility.SSPReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.cootek.tark.ads.sdk.AutoCacheService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.AdsPluginRRReceiver" sender="any" />
-    <prescription type="broadcast" class="com.cootek.smartinput5.func.adsplugin.summary.SummaryNotificationReceiver" sender="any" />
-    <prescription type="broadcast" class="com.cootek.tark.ads.utility.AppInstallReceiver" sender="any" />
-    <prescription type="broadcast" class="com.cootek.tark.ads.utility.SSPReceiver" sender="any" />
-    <prescription type="service" class="com.cootek.tark.ads.sdk.AutoCacheService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.cbx.cbxlib.ad.ADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.cbx.cbxlib.ad.AdReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.cbx.cbxlib.ad.CBXFileProvider" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.cbx.cbxlib.ad.DownloadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="acyivity" class="com.cbx.cbxlib.ad.ADActivity" sender="any" />
-    <prescription type="broadcast" class="com.cbx.cbxlib.ad.AdReceiver" sender="any" />
-    <prescription type="broadcast" class="com.cbx.cbxlib.ad.CBXFileProvider" sender="any" />
-    <prescription type="service" class="com.cbx.cbxlib.ad.DownloadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.chartboost.sdk.CBImpressionActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.chartboost.sdk.CBImpressionActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.ss.android.ad.activity.SingleTaskBrowserActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.ss.android.ad.brandlist.AdBrandDetailActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.ss.android.ad.landingpage.AdBrowserActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.ss.android.ad.landingpage.AdLandingPageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.ss.android.ad.lp.browser.AdLpBrowserActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.ss.android.article.base.feature.app.browser.AdBrowserActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.ss.android.ugc.aweme.app.AdsAppActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.ss.android.ugc.aweme.feed.ad.BottomFormDialog" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.ss.android.ad.impl.AdService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.ss.android.ad.impl.AdService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.ss.android.download.AdInterceptVpnService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.ss.android.ad.activity.SingleTaskBrowserActivity" sender="any" />
-    <prescription type="activity" class="com.ss.android.ad.brandlist.AdBrandDetailActivity" sender="any" />
-    <prescription type="activity" class="com.ss.android.ad.landingpage.AdBrowserActivity" sender="any" />
-    <prescription type="activity" class="com.ss.android.ad.landingpage.AdLandingPageActivity" sender="any" />
-    <prescription type="activity" class="com.ss.android.ad.lp.browser.AdLpBrowserActivity" sender="any" />
-    <prescription type="activity" class="com.ss.android.article.base.feature.app.browser.AdBrowserActivity" sender="any" />
-    <prescription type="activity" class="com.ss.android.ugc.aweme.app.AdsAppActivity" sender="any" />
-    <prescription type="activity" class="com.ss.android.ugc.aweme.feed.ad.BottomFormDialog" sender="any" />
-    <prescription type="service" class="com.ss.android.ad.impl.AdService" sender="any" />
-    <prescription type="service" class="com.ss.android.ad.impl.AdService" sender="any" />
-    <prescription type="service" class="com.ss.android.download.AdInterceptVpnService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.Stub1Activity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.Stub1SIActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.Stub1STAActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.Stub1STOctivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.StubActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.StubSIActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.StubSTAActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.StubSTOctivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.donews.ad.sdk.stub.StubService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.donews.ad.sdk.stub.Stub1Activity" sender="any" />
-    <prescription type="activity" class="com.donews.ad.sdk.stub.Stub1SIActivity" sender="any" />
-    <prescription type="activity" class="com.donews.ad.sdk.stub.Stub1STAActivity" sender="any" />
-    <prescription type="activity" class="com.donews.ad.sdk.stub.Stub1STOctivity" sender="any" />
-    <prescription type="activity" class="com.donews.ad.sdk.stub.StubActivity" sender="any" />
-    <prescription type="activity" class="com.donews.ad.sdk.stub.StubSIActivity" sender="any" />
-    <prescription type="activity" class="com.donews.ad.sdk.stub.StubSTAActivity" sender="any" />
-    <prescription type="activity" class="com.donews.ad.sdk.stub.StubSTOctivity" sender="any" />
-    <prescription type="activity" class="com.donews.ad.sdk.stub.StubService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.dianping.ad.offlinepkg.MidasUpdateService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.dianping.advertisement.offlinepkg.MidasUpdateService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="service" class="com.dianping.ad.offlinepkg.MidasUpdateService" sender="any" />
-    <prescription type="service" class="com.dianping.advertisement.offlinepkg.MidasUpdateService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.douban.ad.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.duokan.reader.domain.ad.AppDownloadReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.duokan.reader.domain.ad.AppInstallReceiver" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.douban.ad.AdActivity" sender="any" />
-    <prescription type="broadcast" class="com.duokan.reader.domain.ad.AppDownloadReceiver" sender="any" />
-    <prescription type="broadcast" class="com.duokan.reader.domain.ad.AppInstallReceiver" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.facebook.ads.AudienceNetworkActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.facebook.ads.AudienceNetworkActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.inmobi.androidsdk.IMBrowserActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.inmobi.rendering.InMobiAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.inmobi.ads.ApkDownloader$ApkDownloadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.inmobi.androidsdk.IMBrowserActivity" sender="any" />
-    <prescription type="activity" class="com.inmobi.rendering.InMobiAdActivity" sender="any" />
-    <prescription type="broadcast" class="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" sender="any" />
-    <prescription type="service" class="com.inmobi.ads.ApkDownloader$ApkDownloadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.iqiyi.video.qyplayersdk.cupid.activity.ADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.iqiyi.video.qyplayersdk.cupid.activity.ADIndependentActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="org.qiyi.android.card.ad.AdFormActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="org.qiyi.android.video.activitys.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="org.qiyi.android.video.ad.ArAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="org.qiyi.android.video.ad.ArAdShareActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="org.qiyi.video.playrecord.ad.ADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="org.qiyi.video.playrecord.ad.ADIndependentActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADActivity" sender="any" />
-    <prescription type="activity" class="com.iqiyi.video.qyplayersdk.cupid.activity.ADIndependentActivity" sender="any" />
-    <prescription type="activity" class="org.qiyi.android.card.ad.AdFormActivity" sender="any" />
-    <prescription type="activity" class="org.qiyi.android.video.activitys.AdActivity" sender="any" />
-    <prescription type="activity" class="org.qiyi.android.video.ad.ArAdActivity" sender="any" />
-    <prescription type="activity" class="org.qiyi.android.video.ad.ArAdShareActivity" sender="any" />
-    <prescription type="activity" class="org.qiyi.video.playrecord.ad.ADActivity" sender="any" />
-    <prescription type="activity" class="org.qiyi.video.playrecord.ad.ADIndependentActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.keymob.sdk.core.KeymobActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.keymob.sdk.core.KeymobActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.ads.feev4.activity.FeeV4VideoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppInterstitialADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity1" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity2" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity3" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity4" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity5" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity1" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity2" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity3" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity4" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity5" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity1" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity2" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity3" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity4" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity5" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity1" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity2" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity3" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity4" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity5" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kugou.android.app.miniapp.ad.PrepareAdActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.kugou.android.ads.feev4.activity.FeeV4VideoActivity" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppInterstitialADActivity" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity1" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity2" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity3" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity4" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppLandscapeADActivity5" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity1" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity2" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity3" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity4" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppPortraitADActivity5" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity1" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity2" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity3" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity4" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardLandscapeADActivity5" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity1" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity2" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity3" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity4" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.MiniAppRewardPortraitADActivity5" sender="any" />
-    <prescription type="activity" class="com.kugou.android.app.miniapp.ad.PrepareAdActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.meituan.android.pt.group.poi.push.PushAdvertisementActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.sankuai.meituan.poi.push.PushAdvertisementActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.sankuai.meituan.takeoutnew.log.ad.cpc.CpcUploadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.sankuai.meituan.takeoutnew.log.ad.cpc.CpcUploadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.meituan.android.pt.group.poi.push.PushAdvertisementActivity" sender="any" />
-    <prescription type="activity" class="com.sankuai.meituan.poi.push.PushAdvertisementActivity" sender="any" />
-    <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" sender="any" />
-    <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.brand.BrandUploadService" sender="any" />
-    <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.cpc.CpcUploadService" sender="any" />
-    <prescription type="service" class="com.sankuai.meituan.takeoutnew.log.ad.cpc.CpcUploadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.millennialmedia.android.MMActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.millennialmedia.android.MMActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.mob.adsdk.activity.BADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.mob.adsdk.activity.LandscapeADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.mob.adsdk.activity.PortraitADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.mob.adsdk.activity.WebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.mob.adsdk.MobADFileProvider" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.mob.adsdk.activity.BADActivity" sender="any" />
-    <prescription type="activity" class="com.mob.adsdk.activity.LandscapeADActivity" sender="any" />
-    <prescription type="activity" class="com.mob.adsdk.activity.PortraitADActivity" sender="any" />
-    <prescription type="activity" class="com.mob.adsdk.activity.WebViewActivity" sender="any" />
-    <prescription type="broadcast" class="com.mob.adsdk.MobADFileProvider" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.mopub.mobileads.MoPubActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.mopub.mobileads.MraidActiviy" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.mopub.mobileads.MraidVideoPlayerActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.mopub.mobileads.MoPubActivity" sender="any" />
-    <prescription type="activity" class="com.mopub.mobileads.MraidActiviy" sender="any" />
-    <prescription type="activity" class="com.mopub.mobileads.MraidVideoPlayerActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="nativesdk.ad.common.receiver.NetworkSwitchReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="nativesdk.ad.common.receiver.PackageAddedReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="nativesdk.ad.common.utils.SdkInternal$AppwallActionReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="nativesdk.ad.common.service.AdPreloadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="broadcast" class="nativesdk.ad.common.receiver.NetworkSwitchReceiver" sender="any" />
-    <prescription type="broadcast" class="nativesdk.ad.common.receiver.PackageAddedReceiver" sender="any" />
-    <prescription type="broadcast" class="nativesdk.ad.common.utils.SdkInternal$AppwallActionReceiver" sender="any" />
-    <prescription type="service" class="nativesdk.ad.common.service.AdPreloadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.netease.moneykeeper.ui.ad.AdDialogActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.netease.newsreader.common.ad.addownload.AdDownloadManageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.netease.nr.biz.ad.ExtraAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.netease.nr.biz.pc.addownload.AdDownloadManageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.netease.newsreader.common.ad.addownload.AdDownloadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.netease.nr.biz.ad.AdPrefetchService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.netease.moneykeeper.ui.ad.AdDialogActivity" sender="any" />
-    <prescription type="activity" class="com.netease.newsreader.common.ad.addownload.AdDownloadManageActivity" sender="any" />
-    <prescription type="activity" class="com.netease.nr.biz.ad.ExtraAdActivity" sender="any" />
-    <prescription type="activity" class="com.netease.nr.biz.pc.addownload.AdDownloadManageActivity" sender="any" />
-    <prescription type="service" class="com.netease.newsreader.common.ad.addownload.AdDownloadService" sender="any" />
-    <prescription type="service" class="com.netease.nr.biz.ad.AdPrefetchService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.sohu.app.ads.sdk.common.widget.webview.SohuAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.sohu.app.ads.sdk.common.widget.webview.SohuVideoDetailPageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.sohu.app.ads.sdk.settings.AdSettingActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.sohu.app.ads.download.DownloadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.sohu.app.ads.sdk.arch.ProcessLifecycleOwnerInitializer" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.sohu.app.ads.sdk.download.DownloadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.sohu.app.ads.sdk.download.DownloadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuAdActivity" sender="any" />
-    <prescription type="activity" class="com.sohu.app.ads.sdk.common.widget.webview.SohuVideoDetailPageActivity" sender="any" />
-    <prescription type="activity" class="com.sohu.app.ads.sdk.settings.AdSettingActivity" sender="any" />
-    <prescription type="service" class="com.sohu.app.ads.download.DownloadService" sender="any" />
-    <prescription type="service" class="com.sohu.app.ads.sdk.arch.ProcessLifecycleOwnerInitializer" sender="any" />
-    <prescription type="service" class="com.sohu.app.ads.sdk.download.DownloadService" sender="any" />
-    <prescription type="service" class="com.sohu.app.ads.sdk.download.DownloadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.talkingdata.sdk.TDAntiCheatingService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="service" class="com.talkingdata.sdk.TDAntiCheatingService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.ads.canvasad.AdCanvasActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.ads.landing.AdLandingPageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI1" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI2" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI3" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI4" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.novel.WebNovelActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.splash.AdCanvasActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.ui.activity.AdBrandActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.ui.activity.AdBrandGuestActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.ui.activity.AdNativeCanvasActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.ui.activity.CustomWebGameForItemActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.ui.activity.VideoAdLandingActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.ui.activity.WebAdvertActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.business.ui.activity.WebVideoAdvertActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.splash.AdCanvasActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.ui.activity.AdNativeCanvasActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.ui.activity.VideoAdLandingActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.ui.activity.WebAdvertActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.ui.activity.WebDialogActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.tad.ui.activity.WebVideoAdvertActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.news.ui.ADInnerJumpActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.qqlive.ona.ad.AdExternalFormActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.qqlive.ona.browser.AdLandPageH5Activity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.qqlive.tad.download.TadCancelActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.qqlive.tad.splash.AdCanvasActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.qqlive.tad.splash.AdLandingPageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.reading.module.splash.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.reading.tad.myad.ui.view.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.reading.tad.ui.WebAdvertActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.reading.tad.ui.WebDialogActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tads.splash.AdLandingPageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.vas.adsdk.pkadvertisement.PkAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.vas.adsdk.webview.BrowserActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.tencent.ads.canvasad.AdCanvasActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.ads.landing.AdLandingPageActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI" sender="any" />
-    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI1" sender="any" />
-    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI2" sender="any" />
-    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI3" sender="any" />
-    <prescription type="activity" class="com.tencent.mm.plugin.appbrand.ad.ui.AppBrandAdUI4" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.novel.WebNovelActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.splash.AdCanvasActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdBrandActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdBrandGuestActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.AdNativeCanvasActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.CustomWebGameForItemActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.VideoAdLandingActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebAdvertActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.business.ui.activity.WebVideoAdvertActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.splash.AdCanvasActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.ui.activity.AdNativeCanvasActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.ui.activity.VideoAdLandingActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.ui.activity.WebAdvertActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.ui.activity.WebDialogActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.tad.ui.activity.WebVideoAdvertActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.news.ui.ADInnerJumpActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.qqlive.ona.ad.AdExternalFormActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.qqlive.ona.browser.AdLandPageH5Activity" sender="any" />
-    <prescription type="activity" class="com.tencent.qqlive.tad.download.TadCancelActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.qqlive.tad.splash.AdCanvasActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.qqlive.tad.splash.AdLandingPageActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.reading.module.splash.AdActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.reading.tad.myad.ui.view.AdActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.reading.tad.ui.WebAdvertActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.reading.tad.ui.WebDialogActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.tads.splash.AdLandingPageActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.vas.adsdk.pkadvertisement.PkAdActivity" sender="any" />
-    <prescription type="activity" class="com.tencent.vas.adsdk.webview.BrowserActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.sina.weibo.movie.startup.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.weibo.mobileads.view.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.weibo.mobileads.view.FlashAdActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.sina.weibo.movie.startup.AdActivity" sender="any" />
-    <prescription type="activity" class="com.weibo.mobileads.view.AdActivity" sender="any" />
-    <prescription type="activity" class="com.weibo.mobileads.view.FlashAdActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="cn.wps.moffice.common.interstitial.MoPubInterstitialAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="cn.wps.moffice.common.interstitial.MoPubNativeInterstitialAdsActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="cn.wps.moffice.main.push.backkeyad.BackkeyAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.MiPushMessageReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.main.ad.sdkreport.SdkReportProvider" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.main.getui.GetuiPushReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.main.membershipshell.AppRegister" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.main.push.interstitial.SelfReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.main.push.util.PushPenetrateMsgReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.main.shortcut.fastaccess.mute.MuteReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.main.ttsservice.MediaButtonBroadcastReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="cn.wps.moffice.service.receivers.MonitorServiceReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.appupdate.AppUpdateService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.backup.BackupService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.common.download.extlibs.service.DownloadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.feedback.upload.FeedbackSenderService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.main.HWQuickActionService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.main.cloud.storage.core.service.CSService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.main.getui.GetuiService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.main.push.service.PusherService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.main.scan.util.ModelService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.main.scan.util.camera.ScanService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.main.scan.util.camera.ScanService\$GrayInnerService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.main.ttsservice.TTSNotificationDealService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.service.CrashLogSenderService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.service.MOfficeSyncService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.service.WakeService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="cn.wps.moffice.service.impl.MOfficeService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubInterstitialAdActivity" sender="any" />
-    <prescription type="activity" class="cn.wps.moffice.common.interstitial.MoPubNativeInterstitialAdsActivity" sender="any" />
-    <prescription type="activity" class="cn.wps.moffice.main.push.backkeyad.BackkeyAdActivity" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.MiPushMessageReceiver" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.main.ad.sdkreport.SdkReportProvider" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.main.getui.GetuiPushReceiver" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.main.membershipshell.AppRegister" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.main.push.interstitial.SelfReceiver" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.main.push.util.PushPenetrateMsgReceiver" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.main.shortcut.fastaccess.mute.MuteReceiver" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.main.ttsservice.MediaButtonBroadcastReceiver" sender="any" />
-    <prescription type="broadcast" class="cn.wps.moffice.service.receivers.MonitorServiceReceiver" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.appupdate.AppUpdateService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.backup.BackupService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.common.download.extlibs.service.DownloadService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.feedback.upload.FeedbackSenderService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.HWQuickActionService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.cloud.storage.core.service.CSService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.getui.GetuiService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.push.service.PusherService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.scan.util.ModelService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.scan.util.camera.ScanService\$GrayInnerService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.main.ttsservice.TTSNotificationDealService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.service.CrashLogSenderService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.service.MOfficeSyncService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.service.WakeService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.service.impl.MOfficeService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.xunlei.downloadprovider.ad.cmgame.CmGameCenterActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.xunlei.downloadprovider.ad.cmgame.CmGameGuideActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.xunlei.downloadprovider.ad.common.browser.WebViewADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.xunlei.downloadprovider.ad.common.browser.WebViewToutiaoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseClientActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.xunlei.downloadprovider.ad.revive.ReviveAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.xunlei.downloadprovider.ad.reward.activity.RewardVideoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.xunlei.video.ad2.activity.GdtAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseVpnService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.cmgame.CmGameCenterActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.cmgame.CmGameGuideActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewADActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.common.browser.WebViewToutiaoActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseClientActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.revive.ReviveAdActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.downloadprovider.ad.reward.activity.RewardVideoActivity" sender="any" />
-    <prescription type="acyivity" class="com.xunlei.video.ad2.activity.GdtAdActivity" sender="any" />
-    <prescription type="service" class="com.xunlei.downloadprovider.ad.install.AppInstallInDisguiseVpnService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.yandex.mobile.ads.AdActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.yandex.mobile.ads.AdActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.yidian.ad.install.InstallTransferActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.yidian.ad.ui.content.AdVideoContentActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.yidian.ad.ui.content.ad_picture_gallery.AdPictureGalleryActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.yidian.ad.ui.content.ad_picture_gallery.AdSuperPictureGalleryActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.yidian.ad.ui.splash.SplashActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.yidian.ad.ui.splash.SplashAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.yidian.ad.ui.splash.test.InternalLaunchScreenActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.yidian.ad.install.LocalVPNService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.yidian.ad.install.InstallTransferActivity" sender="any" />
-    <prescription type="activity" class="com.yidian.ad.ui.content.AdVideoContentActivity" sender="any" />
-    <prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdPictureGalleryActivity" sender="any" />
-    <prescription type="activity" class="com.yidian.ad.ui.content.ad_picture_gallery.AdSuperPictureGalleryActivity" sender="any" />
-    <prescription type="activity" class="com.yidian.ad.ui.splash.SplashActivity" sender="any" />
-    <prescription type="activity" class="com.yidian.ad.ui.splash.SplashAdActivity" sender="any" />
-    <prescription type="activity" class="com.yidian.ad.ui.splash.test.InternalLaunchScreenActivity" sender="any" />
-    <prescription type="service" class="com.yidian.ad.install.LocalVPNService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.youdao.dict.activity.YDAdWebActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youdao.sdk.nativeads.YouDaoInterstitialActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.youdao.dict.activity.YDAdWebActivity" sender="any" />
-    <prescription type="acyivity" class="com.youdao.sdk.nativeads.YouDaoInterstitialActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.ad.detail.container.AdPlayerWebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.ad.detail.container.AdWVWebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.ad.detail.container.LaifengAdWVWebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.ad.detail.container.LaifengUCAdWVWebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.ad.detail.container.UCAdPlayerWebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.ad.detail.container.UCAdWVWebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.ad.detail.container.download.DownloadManagerActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.ad.detail.container.download.LaifengDownloadManagerActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="acyivity">
+<intent-filter>
+    <action name="com.youku.player.ad.AdWebViewActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="acyivity" class="com.youku.ad.detail.container.AdPlayerWebViewActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.ad.detail.container.AdWVWebViewActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.ad.detail.container.LaifengAdWVWebViewActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.ad.detail.container.LaifengUCAdWVWebViewActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.ad.detail.container.UCAdPlayerWebViewActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.ad.detail.container.UCAdWVWebViewActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.ad.detail.container.download.DownloadManagerActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.ad.detail.container.download.LaifengDownloadManagerActivity" sender="any" />
-    <prescription type="acyivity" class="com.youku.player.ad.AdWebViewActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.zhangyue.ad.ui.video.AdVideoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.zhangyue.ireader.zyadsdk.ads.ADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.zhangyue.ad.AdService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.zhangyue.iReader.ad.AdService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.zhangyue.ad.ui.video.AdVideoActivity" sender="any" />
-    <prescription type="activity" class="com.zhangyue.ireader.zyadsdk.ads.ADActivity" sender="any" />
-    <prescription type="service" class="com.zhangyue.ad.AdService" sender="any" />
-    <prescription type="service" class="com.zhangyue.iReader.ad.AdService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.zhaocai.ad.sdk.ZhaoCaiActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.zhaocai.ad.sdk.content.ChannelActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.zhaocai.ad.sdk.content.ContentActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.zhaocai.ad.sdk.ZhaoCaiActivity" sender="any" />
-    <prescription type="activity" class="com.zhaocai.ad.sdk.content.ChannelActivity" sender="any" />
-    <prescription type="activity" class="com.zhaocai.ad.sdk.content.ContentActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.zhihu.android.ad.download.wrapper.AdDwNotificationWrapper$NotificationBroadcastReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.zhihu.android.app.jobservice.AdTracksPushService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.zhihu.android.sdk.launchad.LaunchImageDownloadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.zhihu.android.sdk.launchad.job.AdLaunchUpdateService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="broadcast" class="com.zhihu.android.ad.download.wrapper.AdDwNotificationWrapper$NotificationBroadcastReceiver" sender="any" />
-    <prescription type="service" class="com.zhihu.android.app.jobservice.AdTracksPushService" sender="any" />
-    <prescription type="service" class="com.zhihu.android.sdk.launchad.LaunchImageDownloadService" sender="any" />
-    <prescription type="service" class="com.zhihu.android.sdk.launchad.job.AdLaunchUpdateService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.amazon.device.ads.AdActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.amazon.device.ads.AdActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="cn.domob.android.ads.DomobActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.dm.sdk.ads.DMAdActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="cn.domob.android.ads.DomobActivity" sender="any" />
-    <prescription type="activity" class="com.dm.sdk.ads.DMAdActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.vpadn.widget.VpadnActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.vpadn.widget.VpadnActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.xiaomi.ad.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.xiaomi.ad.puppet.AdPuppetActivity" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.xiaomi.ad.AdActivity" sender="any" />
-    <prescription type="activity" class="com.xiaomi.ad.puppet.AdPuppetActivity" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="net.youmi.android.AdBrowser" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="net.youmi.android.AdReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="net.youmi.android.AdService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="net.youmi.android.AdBrowser" sender="any" />
-    <prescription type="broadcast" class="net.youmi.android.AdReceiver" sender="any" />
-    <prescription type="service" class="net.youmi.android.AdService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.luomi.lm.ad.WebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.luomi.lm.ad.DownloadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.luomi.lm.ad.WebViewActivity" sender="any" />
-    <prescription type="service" class="com.luomi.lm.ad.DownloadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.baidu.mobad.feeds.BaiduActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.baidu.mobads.AppActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.baidu.tieba.ad.browser.AdTbWebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.baidu.tieba.ad.browser.newstyle.NewAdTbWebViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.baidu.mobads.openad.BdFileProvider" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.baidu.mobads.openad.FileProvider" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.baidu.mobads.openad.FileProvider_Decorated_OpenAd" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.baidu.netdisk.advertise.stats.storage.db.AdvertiseStatsProvider" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.baidu.netdisk.advertise.storage.db.AdvertiseProvider" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.baidu.mobad.feeds.BaiduActivity" sender="any" />
-    <prescription type="activity" class="com.baidu.mobads.AppActivity" sender="any" />
-    <prescription type="activity" class="com.baidu.mobads.production.rewardvideo.MobRewardVideoActivity" sender="any" />
-    <prescription type="activity" class="com.baidu.tieba.ad.browser.AdTbWebViewActivity" sender="any" />
-    <prescription type="activity" class="com.baidu.tieba.ad.browser.newstyle.NewAdTbWebViewActivity" sender="any" />
-    <prescription type="broadcast" class="com.baidu.mobads.openad.BdFileProvider" sender="any" />
-    <prescription type="broadcast" class="com.baidu.mobads.openad.FileProvider" sender="any" />
-    <prescription type="broadcast" class="com.baidu.mobads.openad.FileProvider_Decorated_OpenAd" sender="any" />
-    <prescription type="broadcast" class="com.baidu.netdisk.advertise.stats.storage.db.AdvertiseStatsProvider" sender="any" />
-    <prescription type="broadcast" class="com.baidu.netdisk.advertise.storage.db.AdvertiseProvider" sender="any" />
-    <prescription type="broadcast" class="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" sender="any" />
-    <prescription type="broadcast" class="com.baidu.netdisk.ui.advertise.manager.AccountChangeListener" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.qq.e.ads.ADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.qq.e.ads.LandscapeAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.qq.e.ads.PortraitADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.qq.e.ads.RewardvideoLandscapeAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.qq.e.ads.RewardvideoPortraitADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.qq.e.comm.DownloadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.qq.e.ads.ADActivity" sender="any" />
-    <prescription type="activity" class="com.qq.e.ads.LandscapeAdActivity" sender="any" />
-    <prescription type="activity" class="com.qq.e.ads.PortraitADActivity" sender="any" />
-    <prescription type="activity" class="com.qq.e.ads.RewardvideoLandscapeAdActivity" sender="any" />
-    <prescription type="activity" class="com.qq.e.ads.RewardvideoPortraitADActivity" sender="any" />
-    <prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08" sender="any" />
-    <prescription type="activity" class="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="fm.qingting.qtradio.ad.dynamic.GifAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="fm.qingting.qtradio.ad.dynamic.VideoAdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="fm.qingting.qtradio.ad.ApkInstallNotificationReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="fm.qingting.qtradio.ad.ApkInstallReceiver" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="fm.qingting.qtradio.ad.dynamic.GifAdActivity" sender="any" />
-    <prescription type="activity" class="fm.qingting.qtradio.ad.dynamic.VideoAdActivity" sender="any" />
-    <prescription type="broadcast" class="fm.qingting.qtradio.ad.ApkInstallNotificationReceiver" sender="any" />
-    <prescription type="broadcast" class="fm.qingting.qtradio.ad.ApkInstallReceiver" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.google.ads.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.google.android.gms.ads.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.google.ads.conversiontracking.InstallReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.google.android.gms.ads.config.FlagsReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.google.android.gms.ads.config.GServicesChangedReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.google.android.gms.ads.jams.SystemEventReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.google.android.gms.ads.social.DoritosReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.google.android.gms.ads.social.DoritosReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.google.android.gms.ads.AdRequestBrokerService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.google.android.gms.ads.identifier.service.AdvertisingIdService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.google.android.gms.ads.measurement.AdsMeasurementService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.google.android.gms.ads.social.GcmSchedulerWakeupService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.google.ads.AdActivity" sender="any" />
-    <prescription type="activity" class="com.google.android.gms.ads.AdActivity" sender="any" />
-    <prescription type="activity" class="com.google.android.gms.ads.purchase.InAppPurchaseActivity" sender="any" />
-    <prescription type="broadcast" class="com.google.ads.conversiontracking.InstallReceiver" sender="any" />
-    <prescription type="broadcast" class="com.google.android.gms.ads.config.FlagsReceiver" sender="any" />
-    <prescription type="broadcast" class="com.google.android.gms.ads.config.GServicesChangedReceiver" sender="any" />
-    <prescription type="broadcast" class="com.google.android.gms.ads.jams.SystemEventReceiver" sender="any" />
-    <prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any" />
-    <prescription type="broadcast" class="com.google.android.gms.ads.social.DoritosReceiver" sender="any" />
-    <prescription type="service" class="com.google.android.gms.ads.AdRequestBrokerService" sender="any" />
-    <prescription type="service" class="com.google.android.gms.ads.identifier.service.AdvertisingIdService" sender="any" />
-    <prescription type="service" class="com.google.android.gms.ads.measurement.AdsMeasurementService" sender="any" />
-    <prescription type="service" class="com.google.android.gms.ads.social.GcmSchedulerWakeupService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.wandoujia.ads.sdk.download.AppDownloadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="service" class="com.wandoujia.ads.sdk.download.AppDownloadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.bytedance.common.wschannel.server.WsChannelReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p0.StubReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p1.StubReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p2.StubReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p3.StubReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p4.StubReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.TTFileProvider" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.article.samsung.ActionService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.common.wschannel.client.WsClientService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.common.wschannel.server.WsChannelService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.am.KeepAlive" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.am.KeepAlive\$InnerService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p0.StubService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p1.StubService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p2.StubService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p3.StubService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.frameworks.plugin.stub.p4.StubService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.bytedance.tea.crash.upload.CrashUploadService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity" sender="any" />
-    <prescription type="activity" class="com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity" sender="any" />
-    <prescription type="broadcast" class="com.bytedance.common.wschannel.server.WsChannelReceiver" sender="any" />
-    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p0.StubReceiver" sender="any" />
-    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p1.StubReceiver" sender="any" />
-    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p2.StubReceiver" sender="any" />
-    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p3.StubReceiver" sender="any" />
-    <prescription type="broadcast" class="com.bytedance.frameworks.plugin.stub.p4.StubReceiver" sender="any" />
-    <prescription type="broadcast" class="com.bytedance.sdk.openadsdk.TTFileProvider" sender="any" />
-    <prescription type="broadcast" class="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider" sender="any" />
-    <prescription type="service" class="com.bytedance.article.samsung.ActionService" sender="any" />
-    <prescription type="service" class="com.bytedance.common.wschannel.client.WsClientService" sender="any" />
-    <prescription type="service" class="com.bytedance.common.wschannel.server.WsChannelService" sender="any" />
-    <prescription type="service" class="com.bytedance.frameworks.plugin.am.KeepAlive" sender="any" />
-    <prescription type="service" class="com.bytedance.frameworks.plugin.am.KeepAlive\$InnerService" sender="any" />
-    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p0.StubService" sender="any" />
-    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p1.StubService" sender="any" />
-    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p2.StubService" sender="any" />
-    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p3.StubService" sender="any" />
-    <prescription type="service" class="com.bytedance.frameworks.plugin.stub.p4.StubService" sender="any" />
-    <prescription type="service" class="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" sender="any" />
-    <prescription type="service" class="com.bytedance.tea.crash.upload.CrashUploadService" sender="any" />
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.appicplay.sdk.ad.activity.APADViewActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.appicplay.sdk.ad.activity.APIVideoADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.cloudtech.ads.view.InnerWebLandingActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.cloudtech.appwall.AppwallActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.cmcm.cmgame.ad.tt.FakeTTDelegateActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.jdwx.sdk.JDAdBrowser" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.jingdong.app.mall.ad.ADActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kyview.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.kyview.AdviewWebView" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.my.target.ads.MyTargetActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.oppo.mobad.activity.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.sigmob.sdk.base.common.AdActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.taobao.tao.ad.AdNavActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="com.vivo.mobilead.web.VivoADSDKWebView" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="activity">
+<intent-filter>
+    <action name="org.na.ad.ui.AppActivity" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.analytics.sdk.service.ad.AlarmReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="broadcast">
+<intent-filter>
+    <action name="com.yxcorp.gifshow.ad.detail.AppInstalledReceiver" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.birdhfn.sdk.openadsdk.multipro.aidl.BinderPoolService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.jingdong.app.mall.service.ADService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.kyview.DownloadService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.moji.mjad.service.MJAdService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.opos.mobad.service.adService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.oppo.mobad.service.AdService" />
+</intent-filter>
+</prescription>
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+<intent-filter>
+    <action name="com.yxcorp.gifshow.photoad.download.PhotoAdApkDownloadVpnService" />
+</intent-filter>
+</prescription>
 
-    <prescription type="activity" class="com.appicplay.sdk.ad.activity.APADViewActivity" sender="any" />
-    <prescription type="activity" class="com.appicplay.sdk.ad.activity.APIVideoADActivity" sender="any" />
-    <prescription type="activity" class="com.cloudtech.ads.view.InnerWebLandingActivity" sender="any" />
-    <prescription type="activity" class="com.cloudtech.appwall.AppwallActivity" sender="any" />
-    <prescription type="activity" class="com.cmcm.cmgame.ad.tt.FakeTTDelegateActivity" sender="any" />
-    <prescription type="activity" class="com.jdwx.sdk.JDAdBrowser" sender="any" />
-    <prescription type="activity" class="com.jingdong.app.mall.ad.ADActivity" sender="any" />
-    <prescription type="activity" class="com.kyview.AdActivity" sender="any" />
-    <prescription type="activity" class="com.kyview.AdviewWebView" sender="any" />
-    <prescription type="activity" class="com.my.target.ads.MyTargetActivity" sender="any" />
-    <prescription type="activity" class="com.oppo.mobad.activity.AdActivity" sender="any" />
-    <prescription type="activity" class="com.sigmob.sdk.base.common.AdActivity" sender="any" />
-    <prescription type="activity" class="com.taobao.tao.ad.AdNavActivity" sender="any" />
-    <prescription type="activity" class="com.vivo.mobilead.web.VivoADSDKWebView" sender="any" />
-    <prescription type="activity" class="org.na.ad.ui.AppActivity" sender="any" />
-    <prescription type="broadcast" class="com.analytics.sdk.service.ad.AlarmReceiver" sender="any" />
-    <prescription type="broadcast" class="com.yxcorp.gifshow.ad.detail.AppInstalledReceiver" sender="any" />
-    <prescription type="service" class="com.birdhfn.sdk.openadsdk.multipro.aidl.BinderPoolService" sender="any" />
-    <prescription type="service" class="com.jingdong.app.mall.service.ADService" sender="any" />
-    <prescription type="service" class="com.kyview.DownloadService" sender="any" />
-    <prescription type="service" class="com.moji.mjad.service.MJAdService" sender="any" />
-    <prescription type="service" class="com.opos.mobad.service.adService" sender="any" />
-    <prescription type="service" class="com.oppo.mobad.service.AdService" sender="any" />
-    <prescription type="service" class="com.yxcorp.gifshow.photoad.download.PhotoAdApkDownloadVpnService" sender="any" />
-</prescriptions>
