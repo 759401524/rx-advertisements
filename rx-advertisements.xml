@@ -1,5 +1,4 @@
-<prescriptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:schemaLocation="https://greenify.github.io/schemas/prescription/v3 ">
+<prescriptions xmlns="https://greenify.github.io/schemas/prescription/v3">
 
     <prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any" />
     <prescription type="activity" class="com.jirbo.adcolony.AdColonyBrowser" sender="any" />
