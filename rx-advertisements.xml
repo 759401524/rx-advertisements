@@ -50,7 +50,6 @@
     <prescription type="broadcast" class="net.youmi.android.AdReceiver" sender="any" />
     <prescription type="service" class="cn.wps.moffice.appupdate.AppUpdateService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.backup.BackupService" sender="any" />
-    <prescription type="service" class="cn.wps.moffice.common.download.extlibs.service.DownloadService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.feedback.upload.FeedbackSenderService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.main.HWQuickActionService" sender="any" />
     <prescription type="service" class="cn.wps.moffice.main.cloud.storage.core.service.CSService" sender="any" />
